@@ -1,6 +1,11 @@
 
+<string name="app_recommend" tools:ignore="MissingTranslation">应用推荐</string>
+<string name="app_recommend" tools:ignore="MissingTranslation">应用推荐</string>
+<string name="app_recommend" tools:ignore="MissingTranslation">应用推荐</string>
+
+
 <!-- 听书专区 -->
-<string name="listen_zone_title">listen area</string>
+<string name="listen">listen area</string>
 
 
 

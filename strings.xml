@@ -1,0 +1,2339 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="my_plugin">My plug-in</string>
+    <string name="app_update">Check for updates</string>
+    <string name="help_center">Help</string>
+    <string name="about" tools:ignore="MissingTranslation">关于%s</string>
+    <string name="clear_cache">Clear caches</string>
+    <string name="app_recommend" tools:ignore="MissingTranslation">应用推荐</string>
+
+    <string name="querydialogtitle1">1.&#160;</string>
+    <string name="querydialogtitle2">2.&#160;</string>
+    <string name="querydialogtitle3">3.&#160;</string>
+    <string name="querydialogtitle4">4.&#160;</string>
+    <string name="querydialogtitle5">5.&#160;</string>
+    <string name="querydialogcontent1">Honor Read requires access to the storage and Phone permissions to purchase, read and download the e-books.</string>
+    <string name="querydialogcontent2">For avoid missing message, push is opened. You can go " Settings ">" Apps ">" Honor Reader ">" Notifications " to close it.</string>
+    <string name="querydialogcontent3">During use, this app requires access to the Internet. The following information will also be collected and processed:</string>
+    <string name="querydialogcontent3.1">· Device information, including IMEI, IMSI, MEID, MAC, ICCID, AndroidID, Model.</string>
+    <string name="querydialogcontent3.2">to customize contents. You can terminate information collection and upload activities by exiting this app.</string>
+    <string name="querydialogcontent4">The contents of this app is provided by China Reading Corp., Ltd.</string>
+    <string name="querydialogcontent5">You understand and agree that Huawei will not be responsible for any direct, indirect, incidental, special, consequential or punitive damages caused by your use or inability to use this service, including but not limited to data loss, loss of profits, goodwill Losses, and other intangible losses (even if Huawei has been informed of the possibility of such damages).</string>
+    <string name="querydialogcontent6">By touching AGREE, you acknowledge and agree to the above content and the&#160;</string>
+    <string name="contract_and">&#160;and indicate that you have read the&#160;</string>
+    <string name="contract_end">.</string>
+    <string name="contract1">Honor Read User Agreement</string>
+    <string name="contract2">Huawei Privacy Policy</string>
+
+    <string name="do_not_show_again">Don not prompt</string>
+    <string name="url_invalid" tools:ignore="MissingTranslation">无效的URL</string>
+    <string name="fail_get_downloadfile">fail to download resources</string>
+    <string name="splash_title">Honor Read Terms and Conditions</string>
+    <string name="app_sinature_note_title">Information Security Warning</string>
+    <string name="app_sinature_note">The %1$s that you are currently using is pirated \n Please re-download through official channels</string>
+    <string name="app_sinature">be910af39a26a4a992c6fd01a143ed19</string>
+    <string name="up_one_level">Up One Level</string>
+    <string name="current_dir">.</string>
+    <string name="note_no_date_in_edit">Add a reading note (maximum 1000 words)</string>
+    <string name="mark_no_date">No bookmarks</string>
+    <string name="mark_no_date2">Tap the bookmark icon to add a bookmark when you are reading</string>
+    <string name="note_no_date">none</string>
+    <string name="note_no_date2">When reading, tap the text and hold to add a note</string>
+    <string name="chapterlist_menu_redownload">Re-download</string>
+    <string name="chapterlist_menu_download">Download</string>
+    <string name="bookmarklist_menu_jump">Skip to</string>
+    <string name="bookmarklist_menu_del">Delete</string>
+    <string name="bookmarklist_menu_clear">Clear bookmarks</string>
+    <string name="bookmarklist_delete_mark" tools:ignore="MissingTranslation">是否删除此书签？</string>
+    <string name="bookmarklist_delete_note" tools:ignore="MissingTranslation">是否删除此笔记？</string>
+    <string name="bookmarklist_dialog_clear">Confirm clearing all bookmarks from this book?</string>
+    <string name="chapterlist_menu_clear">Clear directory</string>
+    <string name="chapterlist_dialog_clear">Confirm clearing all directories from this book?</string>
+    <string name="bookstand_menu_del">Delete</string>
+    <string name="bookstand_menu_open">Open</string>
+    <string name="bookstand_dialog_del">Confirm book deletion?</string>
+    <string name="bookstand_dialog_select_del">Confirm removing the selected books?</string>
+    <string name="bookstand_menu_remove">Remove</string>
+    <string name="bookstand_menu_paused">Pause</string>
+    <string name="bookstand_menu_goon_download">Continue download</string>
+    <string name="bookstand_dialog_remove">Confirm to remove book \"%1$s\"？</string>
+    <string name="bookstand_dialog_delete">Delete local files</string>
+    <string name="bookstand_dialog_delete_one">Delete the selected book？</string>
+    <string name="bookstand_dialog_delete_mutlt">Delete this %1$d books you selected</string>
+    <string name="bookstand_nofile_mark_delete">The file does not exist, please delete the cover</string>
+    <string name="bookstand_nofile_mark_delete_all">Cleanup similar books at the same time</string>
+    <string name="bookstand_menu_clear">Clear the shelves</string>
+    <string name="bookstand_dialog_clear">Confirm clearing the shelves?</string>
+    <string name="menu_add_to_shelf_confirm">Confirm</string>
+    <string name="alert_dialog_ok">Confirm</string>
+
+    <string name="alert_dialog_cloud_ok">Synchronize</string>
+    <string name="alert_dialog_cloud_cancel">Cancel</string>
+    <string name="alert_dialog_cloud_note_title">Synchronization tips for notes</string>
+    <string name="alert_dialog_cloud_note_local">Do not overwrite</string>
+    <string name="alert_dialog_cloud_note_cloud">Overwrite</string>
+    <string name="alert_dialog_cloud_note_content">There are %1$d local notes, the Cloud has %2$d notes, overwrite the local notes with the Cloud notes?</string>
+    <string name="dialog_shortcut_title">Prompt</string>
+    <string name="dialog_shortcut_message">Add a shortcut to the desktop</string>
+    <string name="exit">Prompt</string>
+    <string name="dialog_exit">Confirm exit %1$s？</string>
+    <string name="dialog_exit_ok">Exit</string>
+    <string name="dialog_logout">Cancel</string>
+
+
+    <!-- 分组 -->
+    <string name="txt_catgory_tile_add">Please enter the group name</string>
+    <string name="txt_catgory_tile_rename">Rename the group</string>
+    <string name="button_catgory_next">Next step</string>
+    <string name="button_catgory_commit">Submit</string>
+    <string name="button_catgory_del">Delete</string>
+    <string name="button_catgory_cancel">Cancel</string>
+    <string name="toast_catgory_null_name">Please enter a name for the group</string>
+    <string name="toast_catgory_duplicate">This group name already exists</string>
+    <string name="toast_catgory_error">Unknown error, please try again later</string>
+    <string name="manager_catgory_one_rename">Rename the group</string>
+    <string name="manager_catgory_one_remove">Delete the group</string>
+    <string name="txt_catgory_one_remove_1">Confirm deleting group \"</string>
+    <string name="txt_catgory_one_remove_2">\"?</string>
+
+    <!-- 书架菜单 -->
+    <string name="text_menu_local_disk">Import local books</string>
+    <string name="text_menu_net_disk">Import network disk books</string>
+    <string name="text_menu_catgory">Organize bookshelf</string>
+    <string name="text_menu_manage">Manage bookshelf</string>
+    <string name="text_menu_updatet">Check serial update</string>
+    <string name="text_menu_cloud">Cloud bookshelf</string>
+
+    <!-- 更新 -->
+    <string name="dialog_update_loading">Checking updates</string>
+    <string name="dialog_update_succes">A new version has been detected</string>
+    <string name="dialog_update_failed">This is the most up-to-date version</string>
+    <string name="dialog_update_note">Found newer version, do you want to update?</string>
+    <string name="dialog_update_note_title">Version update</string>
+    <string name="dialog_update_note_but1">Update</string>
+    <string name="dialog_update_note_but2">Cancel</string>
+
+    <!-- 安装 -->
+    <string name="dialog_install_note">New version has been downloaded, do you want to install?</string>
+    <string name="dialog_install_note_title">Install new version</string>
+    <string name="dialog_install_note_but1">Install</string>
+    <string name="dialog_install_note_but2">Cancel</string>
+
+
+    <!-- 需要开通VIP -->
+    <string name="dialog_vip">Open VIP</string>
+    <string name="dialog_online_need_vip">This chapter is a VIP privilege chapter, you must open VIP access in order to read it.</string>
+    <string name="dialog_drm">Payment bill</string>
+    <string name="dialog_online_need_pay">The following are paid contents, you must purchase the book in order to read it.</string>
+    <!-- 需要登录且开通VIP -->
+    <string name="dialog_online_need_login_vip">This chapter is a VIP privilege section, you must login and open VIP access in order to read it.</string>
+    <!-- 网络错误 -->
+    <string name="dialog_net_error">Network connection failure</string>
+    <string name="suggest_but">Send</string>
+    <string name="suggest_title">User feedback</string>
+    <string name="allnote_title">My notes</string>
+    <string name="suggest_tip">Description of the problem or suggestion：</string>
+    <string name="suggest_note">To provide better services, you are recommended to fill-in:</string>
+    <string name="dialog_readfailed_but">Back</string>
+    <string name="dialog_readfailed_msg">File retrieval failure!</string>
+    <string name="dialog_online_readfailed_msg">Network connection failure!</string>
+    <string name="dialog_readfailed_title">Error</string>
+    <string name="dialog_change_ok">Confirm</string>
+    <string name="dialog_change_str">The book has been changed, bookmark failure.</string>
+    <string name="dialog_change_title">Prompt</string>
+    <string name="dialog_searchfailed_msg">No related files have been found</string>
+    <string name="about_title">About</string>
+    <string name="bookcity_name">QQ Bookstore</string>
+    <string name="filebrowser_name">Local</string>
+    <string name="serch_ing_dialog">Scanning book, please hold</string>
+    <string name="serch_result">Scan result</string>
+    <string name="string_yes">Yes</string>
+    <string name="string_no">No</string>
+    <string name="redownlaod_title">Re-download</string>
+    <string name="redownlaod_msg">This book has been downloaded, are you sure you want to re-download?</string>
+    <string name="redownlaod_msg2">Re-download book?</string>
+
+    <!-- 页面跳转 -->
+    <string name="jump_text_local_percent">%.2f％</string>
+    <string name="jump_text_online_percent">%.2f％</string>
+    <string name="jump_text_local_page">%1$d/%2$d</string>
+    <string name="end_page">This is the last page</string>
+    <string name="first_page">Already the first page</string>
+
+    <!-- 在线阅读 -->
+    <string name="readonlie_loading">Reading the chapter now</string>
+    <string name="readonlie_loading_error">Failure to read the chapter</string>
+    <string name="readonlie_getinfo_error">Failure to obtain chapter information</string>
+    <string name="online_history">Bookstore history</string>
+    <string name="online_null_history">Check the books that you have browsed here</string>
+    <string name="online_download_error">This book cannot be downloaded</string>
+    <string name="query_new_content">Serial update</string>
+    <string name="online_chapter_order">The latest chapter is temporarily not available, please reserve an update reminder</string>
+    <string name="online_chapter_order_small">We will notify you immediately when there is an update!</string>
+    <string name="online_chapter_order_ok">Reservation updated successfully</string>
+    <string name="online_chapter_order_cancel_ok">You have canceled the update reminder</string>
+    <string name="online_chapter_ordered">The latest chapter is temporarily not available, you have reserved an update reminder</string>
+    <string name="online_chapter_new_order">Reservation update</string>
+    <string name="online_chapter_new_cancel">Cancel reminder</string>
+    <string name="online_chapter_new_order_btn">Reservation update reminder</string>
+    <string name="online_chapter_new_cancel_btn">Cancel update reminder</string>
+    <string name="online_chapter_comment_btn">Go review</string>
+
+
+    <!-- 登录 -->
+    <string name="login_pwd_error">The password you have entered is incorrect</string>
+    <string name="login_uin_error">The account name you have entered is incorrect</string>
+    <string name="login_fail">Password or account error</string>
+    <string name="login_failed">Login failure, please try again</string>
+    <string name="login_error">Error occurred during login</string>
+    <string name="login_verify_fail">CAPTCHA error</string>
+    <string name="login_verify_text_message_1">To protect the security of your account</string>
+    <string name="login_verify_text_message_2">Please enter the CAPTCHA below</string>
+    <string name="login_verify_text_message">To keep your account safe, please enter the CAPTCHA!</string>
+    <string name="login_verify_text_title">Please enter the CAPTCHA</string>
+    <string name="login_verify_text_notice">Change CAPTCHA</string>
+    <string name="progress_login_message">Logging in, please hold</string>
+    <string name="porgress_verify_message">Verifying, please hold</string>
+    <string name="login_none">Not logged in</string>
+    <string name="logout_vip">Change account name</string>
+    <string name="register_vip">Open VIP immediately</string>
+    <string name="profile_score_str">Give a score</string>
+    <string name="profile_feedback_str">I want to make a recommendation to %1$s</string>
+    <string name="reinput_verify_code">Please reenter the CAPTCHA</string>
+    <string name="reget_verify_code">Obtaining the verification code</string>
+    <string name="verify_code">CAPTCHA:</string>
+    <string name="login_profile">Account login</string>
+    <string name="login_string">Login</string>
+    <string name="login_cancel">Cancel</string>
+    <string name="login_auto">Automatic login</string>
+    <string name="login_savepass">Safe password</string>
+    <string name="login_inputaccount">Please enter the QQ number</string>
+    <string name="login_inputpsw">Please enter password</string>
+    <string name="login_net_exception">Network anomaly</string>
+    <string name="login_verify_format_error">Wrong CAPTCHA format</string>
+    <string name="login_quick_failed">Sorry, %1$s cannot login successfully</string>
+    <string name="login_by_others">Other login method</string>
+    <!-- 书架标题 -->
+    <string name="book_stand_title">Bookshelf\u0020\u0020%1$dbook</string>
+    <string name="web_title_loading">Loading</string>
+    <!-- 网络授权 -->
+    <string name="dialog_identify_net_error_title">Account verification</string>
+    <string name="dialog_identify_net_error_msg">Network anomaly, account verification failure, please try again later</string>
+    <string name="dialog_identify_common_error">Network authorization failure</string>
+    <string name="dialog_identify_imei_full_title">Authorization instance determination</string>
+    <string name="dialog_identify_imei_full_msg">This book has been authorized more than 10 times, please check authorization record or repurchase</string>
+    <string name="dialog_identify_imei_uin_no_buy_title">Account verification</string>
+    <string name="dialog_identify_imei_uin_no_buy_msg">The present account has not purchased this book, please login using the purchase account</string>
+    <string name="dialog_identify_no_login_title">Login</string>
+    <string name="dialog_identify_no_login_msg">To read this book, please login first</string>
+    <string name="identify_rebuy">Repurchase</string>
+
+    <!-- 图书购买 -->
+    <string name="dialog_book_buy_title">Book purchase</string>
+    <string name="dialog_book_buy">Purchase immediately</string>
+    <string name="dialog_recharge">Recharge immediately</string>
+    <string name="dialog_book_buy_success">Book purchase successful</string>
+    <string name="dialog_book_buy_failed">Book purchase failed</string>
+
+    <string name="text_highlight">Highlight</string>
+
+
+    <!-- 全文检索 -->
+    <string name="search_results">Currently %1$d results has been found</string>
+    <string name="note_del_dialog_title">Delete note</string>
+    <string name="note_del_dialog_text">Confirm deletion of this note?</string>
+    <string name="note_text_edit">Edit</string>
+    <string name="note_text_share">Share</string>
+    <string name="note_text_del">Delete</string>
+
+    <!-- 阅读历史 -->
+
+    <string name="historylist_menu_jump">Continue reading</string>
+    <string name="historylist_menu_del">Delete</string>
+    <string name="history_to_shelf">If you like this book, put it in your bookshelf</string>
+    <string name="history_dialog_tip">Prompt</string>
+    <string name="history_transfer_shelf">Please place your bookstore history on the bookshelf to make reading more convenient</string>
+
+
+    <!-- 插件 -->
+
+    <string name="progress_plugin_get_message">Plug-in list is updating, please wait</string>
+    <string name="progress_plugin_cancel_message">Canceling, please wait</string>
+    <string name="font_changed_ok">Font switch successful</string>
+
+    <!-- QQ网盘 -->
+
+    <string name="netdisk_obtain_file_list">Fetching network disk file</string>
+    <string name="netdisk_obtain_file_list_failed">Network disk file acquisition has failed</string>
+    <string name="netdisk_net_error">The network services is currently unstable, network disk file acquisition has failed</string>
+    <string name="netdisk_file_not_support">This format is temporary not supported</string>
+    <string name="netdisk_file_downloading">The file is being downloaded</string>
+    <string name="netdisk_file_pause">Pause</string>
+    <string name="netdisk_file_resume">Continue</string>
+    <string name="netdisk_file_cancel">Cancel download</string>
+    <string name="netdisk_file_open">Read</string>
+    <string name="netdisk_file_add_shelf">Already added to bookshelf</string>
+    <string name="netdisk_file_empty_info1">There are currently no documents in this directory</string>
+    <string name="netdisk_file_empty_info2">Place the document in the QQ network disk in the computer-end, and the network disk reader can refresh the download</string>
+    <string name="netdisk_file_empty_info3">(You must install the latest official version of QQ2011)</string>
+    <string name="netdisk_file_empty_info4">Use the same Cloud storage at the QQ user-end QQ network disk to transfer files between smartphones and computers</string>
+    <!-- 下拉刷新控件 -->
+    <string name="drop_dowm">Drag down to update</string>
+    <string name="release_update">Release to refresh</string>
+    <string name="doing_update">Updating</string>
+    <!-- 反馈界面 -->
+    <string name="feedback_qun_info">Welcome to the %1$s official QQ group \n group1: %2$s \n group2: %3$s</string>
+    <string name="reader_forum">QQReader book club forum invites you to post></string>
+    <!-- 听书 -->
+    <string name="get_book_music_feed_loading">Obtaining the resources for this book</string>
+    <string name="music_download_percent">%1$d％</string>
+    <string name="music_menu_view_book_detail">Check book details</string>
+    <string name="music_menu_del_chapter">Delete this chapter</string>
+    <string name="music_menu_del_book">Delete the entire book</string>
+    <string name="music_menu_pause_book">Pause book download</string>
+
+    <!-- 沉默提醒 -->
+    <string name="alarm_notice_1">Your reading made you who you are, open %1$s and search for your world!</string>
+    <string name="alarm_notice_2">Still remember the book you read last time, open %1$s and finish it!</string>
+    <string name="alarm_notice_3">Thousands of novels and books are waiting for you, open %1$s to read them!</string>
+    <string name="alarm_notice_4">Open %1$s and enjoy a leisurely reading time!</string>
+    <string name="alarm_notice_5">Life has two modes, walking or reading, open %1$s and read while walking!</string>
+    <!-- 本地 -->
+    <string name="local_import_book">Confirm import (%1$d)</string>
+    <string name="local_import_book_scan_stop">Stop</string>
+    <string name="local_import_book_scan_book">Scanning|Found: %1$d book</string>
+
+    <!-- 阅读界面 -->
+    <string name="readpage_topbar_bookmark">add mark</string>
+    <string name="readpage_topbar_bookmark_cancel">clear mark</string>
+    <string name="readpage_topbar_search">search</string>
+    <string name="readpage_topbar_detail">book detail</string>
+    <string name="readpage_topbar_share">share</string>
+    <string name="readpage_topbar_recommend" tools:ignore="MissingTranslation">猜你喜欢</string>
+    <!--
+          <string name="readpage_topbar_comment">评论</string>
+     <string name="readpage_topbar_download">全本下载</string>
+
+
+
+     -->
+
+
+    <!-- 新手引导 -->
+
+    <string name="new_user_tip_bookcity">Tap "Bookstore" to browse an ocean of books</string>
+    <string name="new_user_tip_nightmode">Tap "Lamp cord" to enter night reading mode</string>
+    <string name="new_user_tip_note">Try tapping the text and holding to add notes</string>
+    <string name="old_user_qqdisk_note">Tap to perform local and network disk import</string>
+
+    <!-- 云书架 、云同步 -->
+
+    <string name="colud_syn_ing">Updating</string>
+    <string name="colud_info1">After login, all of the book in the Cloud bookshelf can be synchronized</string>
+    <string name="colud_info2">Reached chapter</string>
+    <string name="colud_info3">last session, are you sure you want to immediately synchronize the schedule for this book?</string>
+    <string name="cloud_list_empty_info1">While logged in, find a book in the bookstore, use the \n "Add BookShelf" function to synchronize with the Cloud bookshelf.</string>
+    <string name="cloud_list_alert_open_syn">After progress synchronization has been initiated, your reading progress will automatically be backed up to the Cloud bookshelf, which uses a small amount of network traffic.</string>
+    <string name="cloud_alert_update_no">No update at this time</string>
+    <string name="cloud_alert_update_yes_0">A</string>
+    <string name="cloud_alert_update_yes_1">book has been updated</string>
+    <!-- 改错 -->
+    <string name="chapter_bug0">XXXXXBUG0</string>
+    <string name="chapter_bug1">XXXXXBUG1</string>
+    <string name="chapter_bug2">XXXXXBUG2</string>
+    <string name="chapter_bug3">XXXXXBUG3</string>
+    <string name="chapter_report_ok">Confirm upload</string>
+    <string name="chapter_report_cancel">Cancel</string>
+    <!-- 收费 -->
+
+    <string name="retry">Try again</string>
+    <string name="confirm_go_on">Continue</string>
+    <string name="confirm_pay">Continue purchase</string>
+    <string name="confirm_download">Download</string>
+
+    <!-- 章节付费页面 -->
+    <string name="chapter_pay_cancel">Cancel</string>
+    <!-- 在线付费页面 -->
+
+    <string name="paypage_getchapter">Acquire this chapter</string>
+    <string name="paypage_reget">Reacquire</string>
+    <string name="paypage_repay">Payment problem occurred, please try again</string>
+    <string name="paypage_purchase">Purchase</string>
+
+    <string name="paypage_ordernew">Subscription update</string>
+    <string name="paypage_recommend">Check recommendation</string>
+    <string name="paypage_comment">Publish comments</string>
+    <string name="paypage_needlogin">Login and read</string>
+    <string name="loading1" tools:ignore="MissingTranslation">加载中...</string>
+    <string name="paypage_buying">Purchasing...</string>
+    <string name="paypage_openvip">Open VIP</string>
+    <string name="paypage_title_endpage">You have finished reading</string>
+    <string name="paypage_title_wait">To know what happens later, please listen to the next break down</string>
+    <string name="paypage_tip_ordered">You have subscribed to the update reminder</string>
+    <string name="paypage_tip_needpurchase">This chapter can only be read after its purchased</string>
+    <string name="paypage_tip_needlogin">This chapter can only be read after login</string>
+    <string name="paypage_pay_all">Purchase the entire book</string>
+    <string name="paypage_pay_chapter" tools:ignore="MissingTranslation">购买本章</string>
+    <!-- 书籍详情页 -->
+    <string name="bookinfo_share">share</string>
+    <string name="webpage_bookinfo_readonline_free">read</string>
+    <string name="webpage_bookinfo_readonline_pay">read</string>
+    <string name="webpage_bookinfo_read">read</string>
+    <string name="webpage_bookinfo_download_free">download</string>
+    <string name="webpage_bookinfo_download_ok">downloaded</string>
+    <string name="bookinfo_add2bookshelf_ok">bookshelf</string>
+    <string name="bookinfo_add2bookshelf_already">added</string>
+    <string name="bookinfo_client_needupdate">The current version do not support this format, please upgrade to version %1$s</string>
+    <!-- tag id -->
+    <item name="cloudlist_tag_isontab" type="id" />
+    <item name="cloudlist_tag_position" type="id" />
+    <!-- 新书架页面 -->
+
+    <string name="bookshelf_footer_news_text">Acquire more</string>
+    <!-- <string name="bookshelf_footer_import_text">添加更多图书</string> -->
+    <string name="bookshelf_show_nobooks">I rushed to the book like a famished person rushing to bread.</string>
+    <string name="bookshelf_show_allbooks">Everything is shown</string>
+    <string name="bookshelf_footer_gotobookstore">Find a good book, browse choice selection</string>
+    <string name="bookshelf_footer_online_text">Cloud bookshelf</string>
+    <string name="bookshelf_footer_local_text">Import local books</string>
+    <string name="bookshelf_recentread">Recently read</string>
+    <string name="profile_title">Me</string>
+    <!-- 设置 -->
+    <string name="setting_go_back">Back</string>
+    <string name="setting_titile">Set up</string>
+    <string name="setting_content">Book update reminder</string>
+    <!-- 首页 -->
+    <string name="bookshelf">Bookshelf</string>
+    <string name="bookrecommend">Featured</string>
+    <string name="classify">Discover</string>
+    <string name="bookstack">Category</string>
+    <!-- <string name="profile">我的</string> -->
+    <string name="notices_open">Open</string>
+    <string name="notices_close">Close</string>
+    <string name="menu_image_tag">menu_image_tag</string>
+    <string name="menu_text_tag">@null</string>
+    <!-- 书架的弹出MUNE -->
+    <string name="menu_import_more_book">Cloud bookshelf</string>
+    <string name="menu_import_local_book">Import local books</string>
+    <string name="menu_import_net_book">Import network disk books</string>
+    <string name="menu_soft_readtime">Switch to sort based on the reading time</string>
+    <string name="menu_soft_updatatime">Switch to sort based on the update time</string>
+    <string name="menu_auto_update">Serial update reminder</string>
+    <string name="menu_nigh_tmode">Night mode</string>
+    <string name="book_last_operator_time">Reading time:</string>
+    <!-- 书架title -->
+    <string name="bookshelf_title_content">Bookshelf</string>
+    <string name="bookshelfnews_item_hasread">Already read</string>
+    <!-- 分类 -->
+    <string name="build_new_category">Add group</string>
+    <string name="category_index_titler">Search for books based on groups</string>
+    <string name="no_book_tip">No book at this time</string>
+    <!-- 右侧栏的文案 -->
+    <string name="right_sidebar_titile_bookshelf">Bookshelf books</string>
+    <string name="right_sidebar_titile_updata_books">Update books</string>
+    <string name="search">Search</string>
+    <string name="right_sidebar_category_index_title">Search for books based on groups</string>
+    <string name="right_sidebar_manage_books">Batch manage the books</string>
+    <string name="right_sidebar_importcloudbooks">Cloud bookshelf</string>
+    <string name="right_sidebar_importlocalbooks">Import local books</string>
+    <string name="right_sidebar_importnetdiskbooks">Weiyun network disk</string>
+    <!-- 书城 -->
+    <string name="bookstore_title_logo">Bookstore</string>
+    <string name="bookstore_title_set0">Just have a look</string>
+    <string name="bookstore_title_set1">Male preferences</string>
+    <string name="bookstore_title_set2">Female preferences</string>
+    <string name="bookstore_title_set3">Publishing preferences</string>
+    <!-- 分享 -->
+    <string name="share_to">Share to</string>
+    <string name="qq">QQ friends</string>
+    <string name="qzone">QQ space</string>
+    <string name="wxcircle">WeChat friend circle</string>
+    <string name="wxfriend">WeChat friend</string>
+    <string name="more">More</string>
+    <string name="collect">Add bookshelf</string>
+    <string name="share_success">Successfully shared</string>
+    <string name="share">Share</string>
+    <string name="collect_topic">Collect</string>
+    <!-- 全本购买 -->
+    <string name="buy_book_name">《%1$s》</string>
+    <string name="buy_book_type">Order content: all</string>
+    <string name="buy_book_price">Price:</string>
+    <string name="buy_book_price_in_reader" tools:ignore="MissingTranslation">价格：</string>
+    <string name="buy_book_balance">Balance: %1$s</string>
+
+    <string name="alert_dialog_buy_confirm" tools:ignore="MissingTranslation">确认购买</string>
+    <string name="alert_dialog_buy_balance_insufficient">Insufficient funds, please recharge</string>
+
+    <!-- 搜索 -->
+    <string name="search_hotword_bar_title">Search for key words</string>
+    <string name="search_hotword_trigger">Switch up</string>
+    <string name="search_history_bar_title">Search history</string>
+    <string name="search_history_clear">Clear</string>
+    <string name="search_result">Search result</string>
+    <string name="search_result_tip">A total of %1$s books are found in the book repository</string>
+    <!-- Native 阅读尾页 -->
+    <string name="author_word_complete">This book has ended \n Let\'s join the discussions</string>
+    <string name="author_word_no_complete">The author is currently encoding the text \n Stay tuned for subsequent chapters!</string>
+
+    <!-- 书币充值 -->
+    <string name="charge_value">yuan</string>
+    <string name="charge_gift_bookcoin">Book-coin</string>
+    <string name="test_blue_btn">Confirm</string>
+    <string name="charge_pay">Recharge immediately</string>
+    <string name="charge_explain_title">Recharge instructions</string>
+    <string name="charge_custom_hint">Custom recharge amount</string>
+    <string name="charge_custom_toomunch_coin">The amount of input can not be more than 9999.99 yuan</string>
+    <string name="charge_item_superscript_first">+</string>
+    <string name="charge_item_superscript_third">RMB</string>
+    <string name="charge_pay_no_net">The network is not connected,Please try again later.</string>
+    <string name="charge_result">Recharge Result</string>
+    <string name="charge_result_succ">Recharge Successful</string>
+    <string name="charge_result_detail">Successful recharge coin × </string>
+    <string name="charge_result_coin">Successful recharge coin</string>
+    <string name="charge_result_coupon">Give book coupon </string>
+    <string name="charge_result_delay_info">Due to network delay, the book will be credited to the account within 2 hours,please check later</string>
+
+    <!-- 包月 -->
+    <string name="month_charge_explain_title">Monthly package instructions</string>
+    <string name="month_charge_open_for_discount">Time limit %s discount，Open immediately</string>
+    <string name="month_charge_open_for_free">Limit free ，Open immediately</string>
+    <string name="month_charge_need_pay">Actual payment：%1$d coin</string>
+
+    <!-- 手Q组件涉及到的 -->
+    <string name="title_activity_button">ButtonActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button">Button</string>
+    <string name="segment_button">SegmentButton</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Confirm</string>
+    <string name="agreement">accept</string>
+    <string name="show_normal_action_sheet">normal mode</string>
+    <string name="show_menu_action_sheet">menu mode</string>
+    <string name="actionsheet">ActionSheet</string>
+    <string name="progressbar">ProgressBar</string>
+    <string name="loadingview">LoadingView</string>
+    <string name="loading">loading</string>
+    <string name="loadingdialog">LoadingDialog</string>
+    <string name="changing">Switching accounts</string>
+    <string name="groupmanager_tips_input">Please enter the group name</string>
+    <string name="toast">Toast</string>
+    <string name="tips_of_info">tips of info</string>
+    <string name="tips_of_error">tips of error</string>
+    <string name="tips_of_ok">tips of ok</string>
+    <string name="dialog">Dialog</string>
+    <string name="tips_banner">TipsBanner</string>
+    <string name="troopassit_guide_aio_tip">TODO</string>
+    <string name="troopassit_guide_aio_topbar_btn">TODO</string>
+    <string name="net_error_tip">Please check the network settings.</string>
+    <string name="qr_input_mobile_num">Please enter your cell phone number</string>
+    <string name="qr_next_step">Next step</string>
+    <string name="qr_clause_prefix">I have already read and agreed to the</string>
+    <string name="qr_clause">Terms of Use and Privacy Policy</string>
+    <string name="form">Form</string>
+    <string name="country_code">China + 86</string>
+    <string name="enter_password">Please enter password</string>
+    <string name="login">Login</string>
+    <string name="listview">ListView</string>
+    <string name="share_link_copy">Copy link</string>
+    <string name="talkback_copylink">Copy link button</string>
+    <string name="share_to_friend_circle">Friend circle</string>
+    <string name="talkback_friend_circle">Share to WeChat friend circle button</string>
+    <string name="share_to_weixin">WeChat</string>
+    <string name="talkback_wx_friend">Share to WeChat friend circle button</string>
+    <string name="share_to_qq">Friend/group</string>
+    <string name="talkback_qq">Share to QQ friend or group button</string>
+    <string name="talkback_qzone">Share to QQ space button</string>
+    <string name="share_to_qzone">QQ space</string>
+    <string name="custom_view_mode">custom view mode</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="before_yesterday">The day before yesterday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="before_date">Earlier</string>
+    <string name="daybreak">Before dawn</string>
+    <string name="morning">Morning</string>
+    <string name="shangwu">Forenoon</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="evening">Night</string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="day_cn">天</string>
+    <string name="hours">Hour</string>
+    <string name="hours_cn">小时</string>
+    <string name="minite">Minute</string>
+    <string name="minite_cn">分钟</string>
+    <string name="agree">Like</string>
+    <string name="reply">Respond</string>
+    <string name="aio_yesterday">Yesterday</string>
+    <string name="str_refresh_pull">Pull down to refresh</string>
+    <string name="str_refresh_loadding">Refreshing...</string>
+    <string name="str_refresh_release">Release to immediately refresh</string>
+    <string name="str_refresh_lasttime">Latest update:</string>
+    <string name="str_refresh_failed_retry">Refresh failed</string>
+    <string name="net_err_busy">Network is busy</string>
+    <string name="blank_refresh_btn">Refresh</string>
+    <string name="str_refresh_success">Refresh successfully</string>
+    <string name="image">[Photo]</string>
+    <string name="delete_btn">Delete</string>
+    <string name="page_while_loading">page while loading</string>
+    <string name="loading_tips">Loading...</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="common_title_right">Search</string>
+    <string name="monthly_btn_1">Monthly package reading</string>
+    <string name="monthly_btn_2">Growth acceleration</string>
+    <string name="monthly_btn_3">Light up icon</string>
+    <string name="monthly_btn_4">20% off subscription discount</string>
+    <string name="xlistview_header_hint_normal">Pull down to refresh</string>
+    <string name="xlistview_header_hint_ready">Release to refresh data</string>
+    <string name="xlistview_header_hint_loading">Loading...</string>
+    <string name="xlistview_header_hint_loading_huawei">Loading,please wait...</string>
+    <string name="xlistview_header_last_time">Last update time:</string>
+    <string name="xlistview_footer_hint_normal">Check for more</string>
+    <string name="xlistview_footer_hint_ready">Release to load more</string>
+    <string name="xlistview_footer_hint_nonedata">Everything is shown</string>
+    <string name="xlistview_footer_hint_errordata">Load failure, tap reload</string>
+    <string name="bookclub_reply_delete">Delete</string>
+    <string name="bookclub_reply_delete_msg">Do you want to delete this reply?</string>
+    <string name="bookclub_comment_delete_msg">Do you want to delete this comment?</string>
+    <string name="reply_send">Send</string>
+    <string name="posttopic_submit_warning_pure_emotion">Emoticon-only replies not supported, please say something</string>
+    <string name="posttopic_submit_warning_frequency_error">Operation is too frequent, please try again later</string>
+    <string name="posttopic_submit_warning_inblacklist">Sorry, you have been gagged by the administrator, please contact customer services for any questions</string>
+    <string name="posttopic_submit_warning_too_short">The text is too short, please say a bit more</string>
+    <string name="comment_length_reach_limit">Reached the text length limit</string>
+    <string name="comment_title_length_reach_limit">Reached the title length limit</string>
+    <string name="comment_empty">Text cannot be blank</string>
+    <string name="comment_send_title">Prompt</string>
+    <string name="comment_send_success">Book review sent successfully</string>
+    <string name="bookclubindex">Book review zone</string>
+    <string name="bookclubindex_layout" tools:ignore="MissingTranslation">书评区</string>
+    <string name="bookclubreward">Reward zone</string>
+    <string name="bookclubdetail">Book review details</string>
+    <string name="comment_sending">Book review is being published, please try again later</string>
+    <!-- 阅读页 对话框 -->
+    <string name="readerpage_download_need_msg">This book has a new hardcover version, do you want to download?</string>
+    <string name="readerpage_download_need_positive">Download</string>
+    <string name="readerpage_download_complete_title">Download completed</string>
+    <string name="readerpage_download_complete_msg">Hardcover full version download completed, please switch before continuing reading</string>
+    <string name="readerpage_download_complete_positive">Switch to full version</string>
+    <string name="readerpage_ok">I got it</string>
+    <string name="readerpage_changeaccount">Switch account</string>
+    <!-- 精排版字体下载 -->
+    <string name="dialog_drm_font_download_title">Better typesetting</string>
+    <string name="dialog_drm_font_download_text">Download several fonts to enjoy better typesetting.</string>
+    <string name="dialog_drm_font_download_size">Size:10M</string>
+    <string name="dialog_drm_font_download_image_hint">After vs Before</string>
+    <string name="dialog_drm_font_download_checkbox">stop asking me(including other books)</string>
+    <string name="dialog_drm_font_download_positive_button">Have a try</string>
+    <string name="dialog_drm_font_download_negative_button">No,thanks.</string>
+    <string name="pulldownview_success">Refresh successful</string>
+    <string name="pulldownview_failed">Network anomaly</string>
+    <string name="del_comment_fail_msg_notauthor">You are not the author, cannot delete the book review</string>
+    <string name="bookclub_comment_alertmsg">Abandon book review publication</string>
+    <string name="bookclub_comment_giveup">give up</string>
+    <string name="bookclub_none_comment">No book review at this time, quickly grab a sofa</string>
+    <string name="bookclub_none_reply">No response at this time, quickly grab a sofa</string>
+    <string name="bookclub_reply2comment">Reply to OP</string>
+    <string name="bookclub_index_enter">Cruise the book review zone</string>
+    <string name="bookclub_comment_content_hint">Write high quality book review recommendations:\n-reasons for liking or disliking a book\n-comparisons to similar books: story style, character imagery, environment descriptions\n-can be described from different perspectives</string>
+    <string name="bookclub_comment_title_hint">Title (optional)</string>
+    <string name="bookclub_comment_official_content_hint">Write something</string>
+    <string name="bookclub_comment_official_title_hint">Title</string>
+    <string name="bookclub_bookcomment_title">Evaluate this book</string>
+    <string name="chapter_comment_tip">Let\'s discuss (%1$d)></string>
+    <string name="ready_agree">Already Liked it</string>
+    <!-- 书架popmenu -->
+    <string name="bookshelf_menu_import">Import books</string>
+    <string name="bookshelf_menu_trackbook">Search for books based on groups</string>
+    <string name="bookshelf_menu_batmanagement">Batch management</string>
+    <string name="bookshelf_menu_nightmode">Night mode</string>
+    <string name="bookshelf_menu_serializedupdate">Serial update reminder</string>
+    <string name="bookshelf_no_follow_new_content">No update at this time</string>
+    <!-- 版权信息 -->
+
+    <string name="rights_info">Copyrighted • All Rights Reserved</string>
+    <string name="rights_info_no_en" tools:ignore="MissingTranslation">版权所有•侵权必究</string>
+    <!-- 签到 -->
+
+    <string name="sign_ok">Today\'s check in successful</string>
+    <string name="sign_already">Already signed-in today</string>
+    <string name="sign_miss">Check in was omitted for %1$d days this week</string>
+    <string name="sign_miss_btn">missed %1$d days</string>
+    <string name="sign_free">Free supplement check in</string>
+    <string name="sign_login">Please login to check your record of signing</string>
+    <string name="sign_tip">Check in for a full week to win dolls and Q-coins</string>
+    <string name="sign_tip1">Sign to get gifts</string>
+    <string name="sign_tip2">Sign a week to get the prize</string>
+    <string name="sign_lucky">Sign for prize</string>
+    <string name="sign_yet">Signed</string>
+    <string name="sign_window_tip" tools:ignore="MissingTranslation">签满7天拿好礼</string>
+    <string name="sign_window_tip1">Check in for seven days to receive non-stop surprises each week</string>
+    <string name="sign_window_tip2">Q-coins, book coupons, dolls, 100% reward winning rate</string>
+    <string name="sign_continue_day">Already signed-in this week</string>
+    <string name="sign_resign_success">Retroactive successfully</string>
+    <string name="sign_make_up_ok">Supplement check in success and receive all of the rewards</string>
+    <string name="sign_make_up_tip">Check in for seven days to receive lavish gifts. Supplement check in can win the following rewards</string>
+    <string name="sign_make_up_tip2">Opening monthly package, free supplement check in 1 day per week</string>
+    <string name="sign_make_up_tip3">Already opened monthly package, free supplement check in 1 day per week</string>
+    <string name="sign_make_up_tip4" tools:ignore="MissingTranslation">签满7天拿好礼，赢取Q币和公仔</string>
+    <string name="sign_make_up_btn">%1$d book-coin instant supplement check in</string>
+    <string name="sign_rmd_word">%1$d book club has been added to bookshelf</string>
+    <string name="sign_rmd_add_text">Add bookshelf</string>
+    <string name="sign_btn">Check in</string>
+    <string name="sign_get_reward">Extract lavish gifts</string>
+    <string name="sign_write_contact">Fill-in the contact method</string>
+    <string name="resign_btn">Supplement check in immediately</string>
+    <string name="resign_not_enough_balance">Insufficient funds in the account, please recharge</string>
+    <string name="login_tips_1">Books after login, progress Cloud synchronization</string>
+    <string name="login_tips_2">Lavish gifts waiting for you each day</string>
+    <string name="sign_reward_unlock_detail">Unlock 《%1$s》</string>
+    <string name="sign_reward_unlock_chapter_count">Paid chapter +%1$d</string>
+    <string name="login_btn">Immediate login</string>
+
+    <string name="book_ticket_online" tools:ignore="MissingTranslation">书券</string>
+    <string name="sign_reward_ticket">Book coupons</string>
+    <string name="sign_reward_exp">Growth value</string>
+    <string name="sign_supplement">Absence</string>
+    <string name="sign_reward">win the prize</string>
+    <string name="sign_limit_time_free_book">Limit free book</string>
+    <string name="sign_reward_unlock">Chapter unlock</string>
+    <string name="sign_reward_mystery">Secret reward</string>
+    <string name="sign_reward_qcoin">Q-coin</string>
+    <string name="sign_reward_doll">Reading doll</string>
+    <string name="sign_reward_card">Experience card</string>
+    <string name="sign_lucky_draw_getting">Extracting...</string>
+    <string name="sign_lucky_draw_get">You have received:  %1$s</string>
+    <string name="sign_lucky_draw_fill_connect_way">Fill-in the contact method to collect prizes</string>
+    <string name="sign_lucky_draw_tips1">Signed at least seven days (including retroactive) may get QQ coins or dolls!</string>
+    <string name="sign_lucky_draw_tips2">Retroactive one day need 10 book-coins, VIP users make up one day for free every week</string>
+    <string name="sign_lucky_draw_commit_info">Submit</string>
+    <string name="sign_limited_book_more_info" tools:ignore="MissingTranslation">签到限免特权：限免至%1$s</string>
+    <string name="comment_area" tools:ignore="MissingTranslation">书评区</string>
+    <string name="localstore_category" tools:ignore="MissingTranslation">查看目录</string>
+    <string name="localstore_card_author_series">AUTHOR ALSO WROTE</string>
+    <string name="localstore_card_reader_favorite">BOOK CLUB HAS ALSO READ</string>
+    <string name="localstore_card_editor_recommend">EDITOR\'S CHOICE</string>
+    <string name="more_book_in_same_category">SIMILAR POPULAR BOOKS</string>
+    <string name="more_bookinfo">MORE BOOK INFORMATION</string>
+    <string name="origin_copyright_info">The electronic version of this book is produced and generated by %1$s and authorized by %2$s</string>
+    <string name="endpage_tag_1_1">End of book</string>
+    <string name="endpage_tag_1_2">Hurry and participate in the partner discussions</string>
+    <string name="endpage_tag_2_1" tools:ignore="MissingTranslation">作者努力码字中</string>
+    <string name="endpage_tag_2_2" tools:ignore="MissingTranslation">后续章节敬请期待</string>
+    <string name="select_pref_tip">Choose the reading factors that you are interested in</string>
+    <string name="select_gene_tip">Select a maximum of 10</string>
+    <string name="save_all_changes">Save changes</string>
+    <string name="user_pref">Reading factors</string>
+    <string name="selected_comments">Essential book review</string>
+    <string name="no_comment_text">Sorry, the book review has been deleted or does not exist</string>
+    <string name="no_result_text">Sorry, the book you are looking for has not been found</string>
+    <string name="no_result_text_1">Try other combinations</string>
+    <string name="profile_history">Browsing history</string>
+    <string name="skin_manage">Theme setting</string>
+    <string name="pref_info_update_header_tip">We have adjusted your preferences for you based on your recent reading behaviors</string>
+    <string name="paymonth_txt_1">Ten thousand monthly package books are free for you to read online</string>
+    <string name="paymonth_txt_2">Enjoy literature growth value at 1.4-fold acceleration</string>
+    <string name="paymonth_txt_3">1 free supplement check in each week, win lavish prizes</string>
+    <string name="paymonth_txt_4">QQ panel, whole literature platform highlighted icon</string>
+    <string name="paymonth_txt_5">Original new work, limited prerelease free reading</string>
+    <string name="paymonth_txt_6">Receive 20% exclusive book-coin purchase discount for paid books</string>
+    <string name="paymonth_txt_7">Priority online and offline event participation</string>
+    <string name="paymonth_txt_8">Android and PC platform exclusive privileges</string>
+    <string name="my_read_gene">My reading factors</string>
+    <string name="my_gene_tip">We will provide smart book recommendations based on your reading factors</string>
+    <string name="modify_my_read_gene">Adjust my factors</string>
+    <string name="read_gene_action_tip">Your factors are created based on your normal daily reading behaviors</string>
+    <string name="read_gene_action_count_tip">Show only the most recent 3 behaviors</string>
+    <string name="paymonth_boy">Male monthly package</string>
+    <string name="paymonth_girl">Female monthly package</string>
+    <string name="paymonth_publish">Publication monthly package</string>
+    <string name="freepage_boy">Male free</string>
+    <string name="freepage_girl">Female free</string>
+    <string name="freepage_publish">Publication free</string>
+    <string name="freepage_today">Today free</string>
+    <string name="search_hint_folder_text">Check all (%1$d)</string>
+    <string name="search_option_comfirm">Search for the selected combination</string>
+    <string name="search_option_confirm_disabled">Please select a book search condition</string>
+    <string name="search_tool">Book finder</string>
+    <string name="sort_by_popularity">Based on popularity</string>
+    <string name="sort_by_sale">Based on sales</string>
+    <string name="sort_by_updatetime">Based on updates</string>
+    <string name="sort_by_favorite">Based on collections</string>
+    <string name="sort_by_wordscount">Based on word count</string>
+    <string name="search_tool_more_title">Others are searching</string>
+    <string name="search_tool_option_title">Customized search combinations</string>
+    <string name="chapter_buy_none">--</string>
+
+
+    <string name="cloud_keywords_default" tools:ignore="MissingTranslation">绝世唐门,星辰变,最强农民,混沌天体,都市异能,东方玄幻,花千骨,何以笙箫默,追风筝的人,莫言,从0到1,蜀客
+        ,关心则乱,元徵宫词,庶女生存手册,安知晓,叶非夜,蓝白色,爆萌宠妃,法医娇妻,凤鸣宫阙,腹黑首席,楚韵,丁墨,桩桩,斗破苍穹,全职高手,凡人修仙传,超品相师
+        ,医统江山,猫腻,风凌天下,耳根,辰东,唐家三少</string>
+    <string name="search_downloading_tips">Downloading book...%1$d</string>
+    <string name="comment_share_title_prefix">Share a book review:</string>
+    <string name="recmd_search_str">Recommended related searches</string>
+    <string name="skin_execute_text_download">Download</string>
+    <string name="skin_execute_text_switch">Use</string>
+    <string name="skin_execute_text_used">In use</string>
+    <string name="skin_execute_text_update">Update</string>
+    <string name="skin_execute_text_downloading">Downloading</string>
+    <string name="download_skin_title">Download theme</string>
+    <string name="day1">Day 1</string>
+    <string name="day2">Day 2</string>
+    <string name="day3">Day 3</string>
+    <string name="day4">Day 4</string>
+    <string name="day5">Day 5</string>
+    <string name="day6">Day 6</string>
+    <string name="day7">Day 7</string>
+    <string name="author">Author</string>
+    <string name="book_name">Book name</string>
+    <string name="book_type">Type</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="refresh">Refresh</string>
+    <string name="completed_book">The end</string>
+    <string name="fans_billboard">Fans list</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="about_version">%1$s4.0.2</string>
+    <string name="activity_google_selected">Choice picks</string>
+    <string name="autoscroll_stop">Stop</string>
+    <string name="autoscrolldalog_deceleration">Decelerate</string>
+
+    <string name="book_coin_online" tools:ignore="MissingTranslation">书币</string>
+    <string name="book_coin_in_reader" tools:ignore="MissingTranslation">书币</string>
+    <string name="book_ticket_in_reader" tools:ignore="MissingTranslation">书券</string>
+    <string name="book_buy_balance">Balance:</string>
+    <string name="book_buy_balance_in_reader" tools:ignore="MissingTranslation">余额：</string>
+    <string name="book_open_vip_paying">Making paying...</string>
+    <string name="book_pay_bookcoin_pay">Book-coin payment</string>
+    <string name="book_pay_by_bookcoin">Only supports book-coin payment</string>
+    <string name="book_pay_other">Other payment method</string>
+    <string name="book_pay_tip">Your book-coin balance is insufficient, please recharge</string>
+    <string name="book_pay_vip">Tencent monthly literacy package</string>
+    <string name="book_vip_open_failed">Opening effort failed</string>
+    <string name="bookclubitem_platformname">Honor Reader</string>
+    <string name="bookclubsliditemmax_reward">Reward</string>
+    <string name="bookclubsliditemtop_stick">Pin</string>
+    <string name="bookclubslidselectall_stick">Select all</string>
+    <string name="bookclubslidcancelall_stick">Deselect all</string>
+    <string name="bookcoin_going_charegepage">Entering the fund recharging interface...</string>
+    <string name="booknews_loading_complete">All downloads are completed</string>
+    <string name="bookrating_rating">9.2 points</string>
+    <string name="bookrating_five_stars">5 stars</string>
+    <string name="bookrating_four_stars">4 stars</string>
+    <string name="bookrating_one_star">1 stars</string>
+    <string name="bookrating_three_stars">3 stars</string>
+    <string name="bookrating_two_stars">2 stars</string>
+    <string name="bookratingdialog_book_evaluate">Book review</string>
+    <string name="bookshelf_advheader_recommend">Highly recommended</string>
+    <string name="bookshelf_charge_section">Paid chapter+10</string>
+    <string name="bookshelf_extension">Promotion</string>
+    <string name="bookshelf_header_day">days</string>
+    <string name="bookshelf_login_tip">Check sign-in record after login</string>
+    <string name="bookshelf_month_vip_opened">Opened</string>
+    <string name="bookshelf_new">new</string>
+    <string name="bookshelf_send_gift">Prizes will be delivered within 7 days, we will actively contact you</string>
+    <string name="bookshelf_sign_add_five">+5</string>
+    <string name="bookshelf_sign_limit">Free for 27 days</string>
+    <string name="bookshelf_sign_phone">Cell phone No. (optional)</string>
+    <string name="bookshelf_unlock_charge">Unlock paid chapters</string>
+    <string name="bookshelf_update" tools:ignore="MissingTranslation">更新</string>
+    <string name="bookstand_add">Add</string>
+    <string name="bookstand_book_category">Classification</string>
+    <string name="bookstand_linear_detail">See details</string>
+    <string name="bookstandcontextmenu_loading">Loading</string>
+    <string name="bookstandcontextmenu_rank">Leader board list, certain leader board</string>
+    <string name="category_classification_selection">Screen books by classification:</string>
+    <string name="category_detail_list_selected_all">Select all</string>
+    <string name="category_detail_list_status">Condition</string>
+    <string name="category_detail_list">Delete this group?</string>
+    <string name="category_will_moveto_not_classified">This category of books will be moved to unclassified</string>
+    <string name="chapter_auto_break">Smart fragment</string>
+    <string name="chapter_get_catalog_online">Acquire online directory...</string>
+    <string name="chapter_no_contents_info">No directory information is found</string>
+
+
+    <string name="chapter_pay_buy">Tap to buy</string>
+
+    <string name="chapter_pay_chapter_downloading">Downloading chapter...</string>
+    <string name="chapter_pay_download_background">Back-end download</string>
+    <string name="chapter_pay_download_together">Batch download</string>
+    <string name="chapter_pay_parsing_content">Reading content...</string>
+    <string name="free">Free</string>
+    <string name="clip_alert_restore_default">Restore default</string>
+    <string name="clip_cut_ting_edge">Cutting edge</string>
+    <string name="clip_toast_notice">Drag your finger to the corner to select the crop area</string>
+    <string name="cloudlist_author">Author</string>
+    <string name="cloudlist_bookstatus">Condition</string>
+    <string name="progress">Progress</string>
+    <string name="cmd_logcat_grep">logcat dumpsys | grep ActivityManager</string>
+    <string name="comment_report">Report</string>
+    <string name="common_buy_loading">Loading page...</string>
+    <string name="commonsetting_auto_reading">Auto-reading</string>
+    <string name="commonsetting_change_orientation">Rotate screen</string>
+    <string name="commonsetting_custom">Others</string>
+    <string name="commonsetting_font_choose">Square cartoon</string>
+    <string name="commonsetting_human_reading">Read text</string>
+    <string name="more_setting">More</string>
+    <string name="commonsetting_night_mode">Night mode</string>
+    <string name="commonsetting_pdf_cut">Cutting edge</string>
+    <string name="commonsetting_system">System</string>
+    <string name="commonsetting_zoom_out">Enlarge</string>
+    <string name="concept_look_more">Check for more</string>
+    <string name="concept_search_activity">Event</string>
+    <string name="cus_menu_item_add_shelf">Add to bookshelf</string>
+    <string name="debug_ad_getad">Pull the advertisement</string>
+    <string name="debug_availiablemem">AvailiableMem :</string>
+    <string name="debug_cpu_usage">CPU usage rate:</string>
+    <string name="debug_memory_usage">Internal storage application rate:</string>
+    <string name="debug_suspension_info">Info :</string>
+    <string name="debug_totalmem">TotalMem :</string>
+    <string name="debugcpurate_accelerate">Accelerate</string>
+    <string name="debugcpurate_find_review_home">Discover, book review square home page</string>
+    <string name="debugcpurate_mem_notice">Green is unused internal memory, gray is used internal memory</string>
+    <string name="debugweb_clear">Clear</string>
+    <string name="dialog_common_buy_order_detail">Order form status</string>
+    <string name="dict_popup_iciba">iCIBA</string>
+    <string name="dict_popup_soso">soso Encyclopedia</string>
+    <string name="feedlistview_footer_empty">Empty \n continue to recommend high-quality content later</string>
+    <string name="fontlistitem_font_more">More fonts</string>
+    <string name="footer_finish_search">Search completed</string>
+    <string name="light_close">Close</string>
+    <string name="light_follow_system">Use system brightness</string>
+    <string name="light_open">Open</string>
+    <string name="light_slide_change_light">Slide up or down to adjust the screen brightness</string>
+    <string name="list_loading_more">Loading more</string>
+    <string name="loacl_search_go_bookstore_search">Search in the bookstore</string>
+    <string name="loaclstore_card_qidian_book">Starting point for reading</string>
+    <string name="loaclstroe_off_shelves">This book is off the shelf, the relevant contents cannot be viewed</string>
+    <string name="loadmore_hard_loading">Working on loading...</string>
+    <string name="add_to_shelf">Place in bookshelf</string>
+    <string name="localbook_higher_level">Up One Level</string>
+    <string name="localbook_list_imported">Imported</string>
+    <string name="localbookstore_notice_me">Remind me after its added</string>
+    <string name="localstore_card_activity_zone">Event area</string>
+    <string name="localstore_card_advtab_twelve">12 books</string>
+    <string name="localstore_card_book_comment" tools:ignore="MissingTranslation">书评</string>
+    <string name="localstore_card_hot_serial">Popular serial download, please wait</string>
+    <string name="localstore_card_month_rank">Monthly package notice</string>
+    <string name="localstore_card_monthticket_rank">Monthly ticket notice</string>
+    <string name="localstore_card_more">More</string>
+    <string name="localstore_card_read">Read</string>
+    <string name="localstore_card_recommend_rank">Recommendation list</string>
+    <string name="localstore_card_reward_rank">Reward list</string>
+    <string name="localstore_card_vip_privilege">Monthly package privilege</string>
+    <string name="localstore_card_week_active" tools:ignore="MissingTranslation">周活跃</string>
+    <string name="localstore_card_welcome">Weekly wonders waiting for your participation!</string>
+    <string name="localstore_check_net">Bad network, please check your network setting</string>
+    <string name="localstore_custom_combination_search">Customized search combinations</string>
+    <string name="localstore_findingbook_hard">Working on finding the book...</string>
+    <string name="localstore_give_score">Rate this book</string>
+    <string name="localstore_realtime_ranking">Real-time ranking for this book</string>
+    <string name="localstore_reload">Reload</string>
+    <string name="localstore_review_fail">Book review publication failure</string>
+    <string name="localstore_search_loading">Working on finding the book...</string>
+    <string name="localstore_search_tool_book">Book(s)</string>
+    <string name="localstore_special_arms">Special forces</string>
+    <string name="localstore_strange">Fantasy</string>
+    <string name="logindebug_access_token">\nsid(access_token):</string>
+    <string name="logindebug_logintype">Login method:</string>
+    <string name="logindebug_qq_num">\nQQ number (openId):</string>
+    <string name="logindebug_uid">\nuid:</string>
+    <string name="luckmoney_share">Be happy together instead of happy alone, quickly share your views with others</string>
+    <string name="lucky_getting_coupons">Congratulations for winning 10 book coupon red envelopes</string>
+    <string name="luckymoney_share">Share now</string>
+    <string name="message_activity_notification">Event notice</string>
+    <string name="message_administrators">Manager</string>
+    <string name="message_divider_history">The following is the history information</string>
+    <string name="message_one_minutes_ago">1 minute ago</string>
+    <string name="month_vip_coin_charge">Book coin recharge</string>
+    <string name="music_book_downloading">Downloading</string>
+    <string name="music_complete_dowload">Complement other chapters, download the entire book now</string>
+    <string name="music_entered_sound_bookstore">Enter audio book region</string>
+    <string name="myfavor_empty">Nothing stored at this time</string>
+    <string name="myfavor_empty_collection">Store the contents you like here</string>
+    <string name="net_error_retry">Network failure, try again?</string>
+    <string name="new_common_know">I know</string>
+    <string name="new_common_know_in_reader" tools:ignore="MissingTranslation">知道了</string>
+    <string name="new_login_login_by_qq">QQ Login</string>
+    <string name="new_login_tip">QQ and WeChat logins are two individual accounts, and their account information are not interconnected.</string>
+    <string name="new_login_wxlogin">WeChat login</string>
+    <string name="new_user_alarm_book">Giving back to new QQReader customers, get a genuine "Legend of Chusen" book for free</string>
+    <string name="new_user_later">Ask me later</string>
+    <string name="new_user_presentation_book">Book prize</string>
+    <string name="new_user_receive">Receive now</string>
+    <string name="onlinehistory_goto_bookstore">Visit bookshelf</string>
+    <string name="onlineread_upload_log">Upload journal</string>
+    <string name="onlinewebpage_home">Homepage</string>
+    <string name="back">Back</string>
+    <string name="openmonthly_free_sevenday">Open the value pack, enjoy reading for 7 days</string>
+    <string name="order_loading_book">Loading the relevant book...</string>
+
+
+
+    <string name="delete_btn_reader" tools:ignore="MissingTranslation">删除</string>
+    <string name="parsing_content">Reading content...</string>
+    <string name="pay_vip_tencent_literature">Tencent monthly literacy package</string>
+    <string name="plug_in_list_item_installed" tools:ignore="MissingTranslation">已安装</string>
+    <string name="popwebdialog_adv_behavior">Advertisement behavior</string>
+    <string name="popwebdialog_adv_title">Advertisement title</string>
+    <string name="preference_select_booktype">Please select the categories of books that you read often</string>
+    <string name="profile_account_info_synchronize">Experience more after login</string>
+    <string name="profile_account_login">Login</string>
+    <string name="profile_assets">Reading assets</string>
+    <string name="profile_charge">Recharge</string>
+    <string name="profile_daily_task">Today\'s mission</string>
+    <string name="profile_get_account_info_failed">Failed to acquire account information</string>
+    <string name="profile_login_out">Logout</string>
+    <string name="profile_login_tip">After login, account information, purchase history Cloud synchronization</string>
+    <string name="profile_month_ticks">0 monthly ticket</string>
+    <string name="profile_monthly_experience_card">0 monthly package experience card</string>
+    <string name="profile_my_account">My account</string>
+    <string name="profile_my_collection">My collection</string>
+    <string name="profile_my_gene">My factors</string>
+    <string name="profile_my_gift_pack">My value pack</string>
+    <string name="profile_my_msg">Message</string>
+    <string name="profile_old_retry">Tap to retry</string>
+    <string name="profile_openvip">Open</string>
+    <string name="profile_recommend_ticks">0 recommended ticket</string>
+    <string name="profile_retry">Tap to retry</string>
+    <string name="setting">Set up</string>
+    <string name="profile_sign">Check in</string>
+    <string name="profile_vip_privilege">Monthly package privilege</string>
+    <string name="qurl_find_home">Discover homepage</string>
+    <string name="qurl_rank_home">Leader board homepage (male/female/publishing)</string>
+    <string name="qurl_shelf_page">Bookshelf</string>
+    <string name="qurl_stack_room">Book repository page (original/publishing)</string>
+    <string name="qurl_tabulation">Category list, certain designated specific categories</string>
+    <string name="qurl_test_accountinfo">My page</string>
+    <string name="qurl_test_author">Discover, hall of fame homepage</string>
+    <string name="qurl_test_book_detail">Book details page</string>
+    <string name="qurl_test_boutiques">Discover, featured bookstore homepage</string>
+    <string name="qurl_test_comment_detail">Designate book review details</string>
+    <string name="qurl_test_comment_zone_main">Designate book review region homepage (public)</string>
+    <string name="qurl_test_comment_zone_onebook">Designate book review zone homepage (single book)</string>
+    <string name="qurl_test_commit_comment">Open designated book club circle book review writing page, return to book club circle after saving</string>
+    <string name="qurl_test_fans_billboard">Fans list page</string>
+    <string name="qurl_test_feedback">Opinion feedback page</string>
+    <string name="qurl_test_findbook">Discover, book finder homepage</string>
+    <string name="qurl_test_open_vip">Monthly package payment pop-up window</string>
+    <string name="qurl_test_pay_once">Single purchase recharge pop-up window</string>
+    <string name="qurl_test_read_gene">Reading gene page</string>
+    <string name="qurl_test_readerpage">Reading page</string>
+    <string name="qurl_test_reward">Reward pop-up window</string>
+    <string name="qurl_test_selected_home">Featured home page</string>
+    <string name="qurl_test_todayfree">Discover, today\'s free homepage</string>
+    <string name="qurl_test_topic">Specific topic page details page (native)</string>
+    <string name="qurl_test_vipzone">Discover, monthly package area homepage</string>
+    <string name="qurl_test_vote_month">Monthly vote casting pop-up window</string>
+    <string name="qurl_test_vote_recommend">Recommendation pop-up window</string>
+    <string name="book_count">Book(s)</string>
+    <string name="read_gene_daily_reading">Everyday reading</string>
+    <string name="read_gene_day">days</string>
+    <string name="read_gene_readed_books">Books read</string>
+    <string name="read_gene_reading_days">Numbers of reading day</string>
+    <string name="read_gene_share">Share to friends</string>
+    <string name="read_gene_total_read">Accumulated reading</string>
+    <string name="read_gene_word">Words</string>
+
+    <string name="reader_setting_doublepage" tools:ignore="MissingTranslation">横屏双页效果</string>
+
+
+
+
+
+
+
+    <string name="reader_setting_system" tools:ignore="MissingTranslation">系统</string>
+
+
+
+
+
+
+
+
+
+
+
+    <string name="reader_setting_turnpage_vertical" tools:ignore="MissingTranslation">上下</string>
+
+    <string name="reader_widget_bookshelf">Bookshelf</string>
+    <string name="readerendpage_guessyoulike" tools:ignore="MissingTranslation">猜你喜欢</string>
+    <string name="readerendpage_share">Share</string>
+    <string name="readerendpage_share_layout" tools:ignore="MissingTranslation">分享</string>
+    <string name="readerpage_change_book" tools:ignore="MissingTranslation">换一换</string>
+    <string name="readerweb_detailed_rules">Check rule details</string>
+    <string name="readerwebpopdialog_double_month_ticket">Authors can receive double for the monthly votes casted during the event</string>
+    <string name="readerwebpopdialog_vote_success">Vote cast successfully</string>
+    <string name="readmodedlg_auto_read">Automatic reading</string>
+    <string name="readpage_effort_coding">The author is currently encoding the text \n Stay tuned for subsequent chapters!</string>
+    <string name="replyitem_god_reply">Best reply</string>
+    <string name="request_debug_login">Login</string>
+    <string name="request_debug_multi">Continuous request</string>
+    <string name="request_debug_one">One time request</string>
+    <string name="request_debug_result">Request result</string>
+    <string name="request_debug_stop">Stop request</string>
+    <string name="request_input_address">Enter the link address</string>
+    <string name="request_input_password">Enter password</string>
+    <string name="request_need_login">If you need login status, please login from the customer-end</string>
+    <string name="rquest_enter_account">Enter account number</string>
+    <string name="search_download_and_reading">After download has been successful, enter reading</string>
+    <string name="search_downloading">Downloading book...15%</string>
+    <string name="search_read">Read</string>
+    <string name="search_recommend">Recommendation search</string>
+    <string name="search_tool_everyone_insearch">Others are searching</string>
+    <string name="search_tool_research">Adjust book search conditions and search again</string>
+    <string name="searchdialog_enter_words">Enter the search word and see where is TA?</string>
+    <string name="searchdialog_no_keyword">Sorry, the text does not contain this keyword \n try changing your keyword?</string>
+    <string name="searchlist_search_more">More search results</string>
+    <string name="searchlist_searching">Searching</string>
+    <string name="search_delete_history">Delete search history？</string>
+    <string name="seekbar_next_chapter">Next chapter</string>
+    <string name="seekbar_pre_chapter">Previous chapter</string>
+    <string name="subscribe_boy_channel">Men\'s channel:</string>
+    <string name="subscribe_concerned_channel">Already followed N channels</string>
+    <string name="subscribe_delete_sort">Tap delete, drag sorting</string>
+    <string name="subscribe_follow_new_channel">Tap follow new channels</string>
+    <string name="subscribe_girl_channel">Women\'s channel:</string>
+    <string name="subscribe_more_channel">More channels</string>
+    <string name="subscribe_publish_channel">Publishing channel:</string>
+    <string name="subscribe_special_channel">Specialty channels:</string>
+    <string name="suggest_phone">Phone number</string>
+    <string name="suggestpage_look_forward_feedback">We look forward to your feedback</string>
+    <string name="suggestpage_qq_account">QQ account</string>
+    <string name="tab_bookmark">Bookmarks</string>
+    <string name="tab_booknote">Notes</string>
+    <string name="catalog">Directory</string>
+    <string name="tagdemo_classic_literature">Classic literature</string>
+    <string name="tagdemo_fictional_works">Fictions based on the Qin, Han, and Three Kingdoms eras as background</string>
+    <string name="theme_new_button">New Button</string>
+    <string name="ttssetting_fast">Speed Up</string>
+    <string name="ttssetting_quit">End reading</string>
+    <string name="ttssetting_slow">Speed Down</string>
+    <string name="vip_right_1_short">Monthly package reading</string>
+    <string name="vip_right_1_long">Tens of thousands of "monthly package books" can be read online for free</string>
+    <string name="vip_right_2_long">Tencent literature growth value of 1.4-fold accelerated upgrade</string>
+    <string name="vip_right_2_short">Growth acceleration</string>
+    <string name="vip_right_3_long">QQ panel, whole literature platform highlighted identity</string>
+    <string name="vip_right_3_short">Icon highlight</string>
+    <string name="vip_right_4_long">Read "paid books" and receive 20% exclusive book credit purchase discount</string>
+    <string name="vip_right_4_short">Discount privileges</string>
+    <string name="vip_right_5_long">Enjoy the privileges on smartphones and computer platforms (except for iOS)</string>
+    <string name="vip_right_5_short">Universally acceptable ID</string>
+    <string name="vip_right_open_vip">Open</string>
+    <string name="vote_reward_ticket_no_en" tools:ignore="MissingTranslation">投票</string>
+    <string name="vote_choose_fans_billboard">Review fans list</string>
+
+    <string name="vote_comment_commit">Publish</string>
+    <string name="vote_comment_good">This book is outstanding! Express my encouragement and hope the follow-up would be even better!</string>
+    <string name="vote_comment_reward_success">Reward success</string>
+
+
+
+
+    <string name="vote_month_ticket">Cast monthly votes</string>
+
+
+
+    <string name="vote_recommend_ticket">Cast recommendation votes</string>
+
+
+    <string name="vote_success_give_monthticket">Successfully rewarded 10 thousand book-coins while providing one monthly casting vote</string>
+    <string name="webpage_loading">Loading...</string>
+
+    <string name="wx_month_vip_autopay">Automatic renewal</string>
+    <string name="wx_month_vip_open_more_privilege">More privileges</string>
+    <string name="wx_month_vip_readfree">Read all of the monthly package books for free</string>
+    <string name="wx_month_vip_zero">0yuan</string>
+    <string name="zoom_current_font">Current font:</string>
+    <string name="zoom_system_font">System font</string>
+    <string name="zoom_font_size">No.</string>
+    <string name="xgmessage_new_msg">Received 1 new message</string>
+    <string name="wxperformance_looper_timeout">Looper overtime</string>
+    <string name="wxperformance_memory_danger_low">Internal storage warning: low (50%)</string>
+    <string name="wxperformance_memory_danger_middle">Internal storage warning: moderate (70%)</string>
+    <string name="wxperformance_memory_danger_high">Internal storage warning: high (90%)</string>
+    <string name="wxreceiver_not_installed">You have not installed WeChat</string>
+    <string name="about_activity_about">About</string>
+    <string name="status_not_support">Please download the book in the bookshelf</string>
+    <string name="abs_base_booklist_clearing">Cleaning up, please wait...</string>
+    <string name="abs_base_booklist_remove">Delete</string>
+    <string name="abs_base_booklist_packet_to">Group to</string>
+    <string name="abs_base_booklist_download_continue">Continue download</string>
+    <string name="abs_base_booklist_stop">Pause</string>
+    <string name="abs_base_booklist_delete">Delete</string>
+    <string name="abs_base_booklist_share_to_friend">Share</string>
+    <string name="adv_card_recommend_boy">Men category</string>
+    <string name="adv_card_recommend_girl">Women category</string>
+    <string name="adv_card_recommend_publish">Publishing category</string>
+    <string name="adv_card_book_classification">Books category</string>
+    <string name="net_connect_fail">Network failure</string>
+    <string name="app_update_characteristic">Upgrade reminder \n\n new features: \n1. selection information.selection information.selection information..selection information.selection information.selection information. \n2. Discovered \n\n new version:V5.0.0</string>
+    <string name="app_update_notice">Upgrade reminder \n\n</string>
+    <string name="app_update_start_update">Start upgrade</string>
+    <string name="app_update_update">Upgrade</string>
+    <string name="archive_file_browser_add_shelf_count">Place in bookshelf (1)</string>
+    <string name="archive_file_browser_add_shelf">Place in bookshelf</string>
+    <string name="archive_file_browser_unable_sd_card">SDCard is inaccessible</string>
+    <string name="add_to_shelf1">Place in bookshelf (1)</string>
+    <string name="archive_file_browser_file_loading">Document is loading, please wait</string>
+    <string name="archive_file_brower_compressing_document">Opening compressed document...</string>
+    <string name="audio_config_no_file">File does not exist</string>
+    <string name="autosroll_change_to_cover">Switch to overwrite mode</string>
+    <string name="autoscroll_change_to_scroll">Switch to scroll mode</string>
+    <string name="base_plugin_you_should_update">The current customer-end version is not supported, please upgrade to the newest version.</string>
+    <string name="big_book_item_points">Score</string>
+    <string name="big_book_item_word">Words</string>
+    <string name="book_classify_publish">Published books</string>
+    <string name="book_classify_rank" tools:ignore="MissingTranslation">排名</string>
+    <string name="book_club_repling">Sending reply, please try again later</string>
+    <string name="book_club_god_reply">[Best reply]</string>
+    <string name="book_club_hot_comments">Hot review zone</string>
+    <string name="book_club_topic_praise">Like</string>
+    <string name="book_club_topic_praise_fail">Like tapping failed</string>
+    <string name="book_club_topic_reply">"Respond"</string>
+    <string name="book_club_topic_from" tools:ignore="MissingTranslation">来自</string>
+    <string name="book_coin_charge_custom_open_month">Self-defined opening month</string>
+    <string name="book_coin_charge_custom_coin">Self-defined book-coin quantity</string>
+    <string name="book_coin_charge_toomunch_month">Cannot exceed the maximum opening month</string>
+    <string name="book_coin_charge_custom_toomunch_coin">Cannot exceed the maximum book-coin quantity</string>
+    <string name="book_coin_charge_month">Months</string>
+    <string name="book_coin_charge_zero">$0</string>
+    <string name="book_coin_charge_yuan">Yuan</string>
+    <string name="book_coin_charge_load_fail">Load failed</string>
+    <string name="book_coin_charge_loading_openvip">Entering monthly package interface...</string>
+    <string name="wxreciever_sdk_not_match">Current WeChat version does not match the SDK, please update</string>
+    <string name="wxreceiver_registe_failer">Wechat plug-in registration failure</string>
+    <string name="wxapimanager_file_error">File acquisition error</string>
+    <string name="wxapimanager_file_size_limit">Size of the share contents cannot exceed 10 MB</string>
+    <string name="wxapimanager_author">Author:</string>
+    <string name="wverify_security_code_error">Wrong CAPTCHA format</string>
+    <string name="wverify_net_error">Network anomaly, please try again.</string>
+    <string name="wverify_security_code_error2">CAPTCHA error, please re-enter again.</string>
+    <string name="pay_canceled_unfinished">Order is canceled, recharge is not completed</string>
+    <string name="webbrowser_pay_failed">Recharge failed</string>
+    <string name="pay_canceled">Order is canceled</string>
+    <string name="openvip_failed">Opening effort failed</string>
+    <string name="webbrowser_week_rank">Weekly list</string>
+    <string name="webbrowser_month_rank">Monthly list</string>
+    <string name="webbrowser_total_rank">Total list</string>
+    <string name="webbrowser_download_failed">Download failed, please try again later</string>
+    <string name="pay_error_retry">Payment problem occurred, please try again</string>
+    <string name="buy">Purchase</string>
+    <string name="webbrowser_add_to_download_list">Already added to the download list</string>
+    <string name="webbrowser_already_downloaded">The download list already contains this section</string>
+    <string name="openvip_success">Monthly package opened successfully</string>
+    <string name="webbrowser_order_success">Subscription success</string>
+    <string name="buying_waiting">Purchasing, please wait...</string>
+    <string name="webbrowser_price">Price:</string>
+    <string name="search_tip_top">Search for books or authors...</string>
+    <string name="clear_search_history">Clear history</string>
+    <string name="search_empty_string">Search content is empty</string>
+    <string name="webbook_author_interact">Author interaction</string>
+    <string name="webbook_book_interact">Book interaction</string>
+    <string name="download_res_failed">Resource download acquisition failed</string>
+    <string name="webbook_brief_introduction">Brief introduction</string>
+    <string name="book_coupon_more_gift">More gifts, stay tuned</string>
+    <string name="book_coupon_tomorrow">More gifts tomorrow</string>
+    <string name="book_info_serialize_to">Connect to</string>
+    <string name="book_info_end">End total</string>
+    <string name="chapter">Chapter</string>
+    <string name="book_info_update">Update:</string>
+    <string name="book_info_favor">Collector</string>
+    <string name="book_info_follow_update">Chaser</string>
+    <string name="book_info_points">Score</string>
+    <string name="book_info_4_update">Update</string>
+    <string name="book_info_procurement">This book is not on the shelf currently, we are working on purchasing it</string>
+
+    <string name="book_pay_open_fail">Opening failed, please try again later</string>
+    <string name="book_pay_open_month">Months</string>
+    <string name="book_pay_coin">Book-coin</string>
+    <string name="book_pay_balance">Balance:</string>
+    <string name="book_pay_open">Open</string>
+    <string name="book_pay_makesure_pay">Confirm payment</string>
+    <string name="book_pay_balance_low">Recharge</string>
+    <string name="book_pay_balance_coin">Book coin balance:</string>
+    <string name="book_pay_need_pay">(must pay:</string>
+    <string name="book_pay_need_coin">book-coins)</string>
+    <string name="book_pay_discount">Discount</string>
+    <string name="book_pay_worder_net_error">Network connection failure!</string>
+    <string name="book_pay_worder_resurce_error">Resource download acquisition failed</string>
+    <string name="bookshelf_activity_forgot_sign">Signature omitted</string>
+    <string name="bookshelf_activity_login_first">Please login first</string>
+    <string name="bookshelf_activity_add_shelf">The bookstore history is added to the bookshelf</string>
+    <string name="bookshelf_acitivity_cloud_shelf">Cloud bookshelf</string>
+    <string name="bookshelf_activity_import_native">Import local books</string>
+    <string name="bookshelf_activity_cloud_netdisk">Weiyun network disk</string>
+    <string name="bookshelf_activity_free">Free</string>
+    <string name="bookshelf_activity_import_success">Book import success</string>
+    <string name="bookshelf_activity_storage_low">The memory card has insufficient space and may affect normal operations, it is recommended that you clean up the memory card</string>
+    <string name="bookshelf_activity_storage_disable">The memory card cannot be used. If the data cable is connected, please try to unplug the cable and restart the software again</string>
+    <string name="bookshelf_activity_importing_shelf">Importing the bookstore history into the bookshelf, please wait...</string>
+    <string name="bookshelf_activity_top_most">You may pre-order 3 books at most</string>
+    <string name="bookshelf_activity_top">Pre-ordered</string>
+    <string name="bookshelf_activity_cancel_top">Pre-order canceled</string>
+    <string name="bookshelf_activity_canceled_top">Unpinned</string>
+    <string name="bookshelf_activity_clearing_file_local">Deleting local files, please wait...</string>
+    <string name="bookshelf_activity_clearing">Cleaning up, please wait...</string>
+    <string name="bookshelf_dialog_title">Prompt</string>
+    <string name="bookshelf_dialog_import">Import</string>
+    <string name="bookshelf_dialog_check">Detected you</string>
+    <string name="bookshelf_activity_center">The center has</string>
+    <string name="bookshelf_activity_not_in_shelf">This book is not in the local bookshelf, import it?</string>
+    <string name="bookshelf_activity_sign_success">Check in success</string>
+    <string name="bookshelf_activity_reward_once">Today\'s check in reward has already been issued, the same device cannot receive the reward twice</string>
+    <string name="bookshelf_activity_luck_once">The prize has already been drawn, come back again next week</string>
+    <string name="bookshelf_activity_fill_contact">Fill-in the contact method</string>
+    <string name="bookshelf_activity_qq_null">QQ account cannot be empty</string>
+    <string name="bookshelf_activity_need_login">You must login, please login</string>
+    <string name="bookshelf_activity_remove">Remove</string>
+    <string name="bookshelf_activity_accessed_bookstore">Access QQ bookstore, tons of books for you to choose from</string>
+    <string name="bookshelf_activity_importing">Importing</string>
+    <string name="bookshelf_activity_center_wait">Center books are on the shelf, please wait...</string>
+    <string name="bookshelf_activity_commit_success">Submitted successfully</string>
+    <string name="bookshelf_activity_already_sign">Already signed it</string>
+    <string name="bookshelf_activity_sign_fail">Check in failed, please try again later</string>
+    <string name="resign_fail">Retroactive fail</string>
+    <string name="bookshelf_activity_luckied">Already been drawn</string>
+    <string name="bookshelf_activity_luckied_this_week">This week\'s prize has already been drawn, a single device cannot draw the prize twice</string>
+    <string name="bookshelf_activity_commit_fial">Submission failed, please try again later</string>
+    <string name="bookshelf_activity_limit_free">Limited free for %1$d hour(s)</string>
+    <string name="bookshelf_activity_sign_refresh_fail">Check in panel refresh anomaly</string>
+    <string name="bookshelf_adapter_read_to" tools:ignore="MissingTranslation">读至：</string>
+    <string name="bookshelf_adapter_listen_to" tools:ignore="MissingTranslation">听至：</string>
+    <string name="bookshelf_adapter_update_to" tools:ignore="MissingTranslation">更新至：</string>
+    <string name="bookshelf_list_readed">opened</string>
+    <string name="bookshelf_list_listened">listened</string>
+    <string name="bookshelf_list_join">newly added</string>
+    <string name="bookshelf_list_topped">Suspended</string>
+    <string name="bookshelf_list_download_fail">Download failed</string>
+    <string name="book_stand_author">Author:</string>
+    <string name="book_stand_classification">Classification:</string>
+    <string name="bookstore_order_cancel_no_recharge">Order is canceled, recharge is not completed</string>
+    <string name="bookstore_recharge_fail">Recharge failed</string>
+    <string name="bookstore_order_cancel">Order is canceled</string>
+    <string name="bookstore_subscribe_success">Subscription success</string>
+    <string name="card_debug_init_time">Initialization time</string>
+    <string name="card_debug_instance_count">"Instance number is: "</string>
+    <string name="category_book_cancel_all">Deselect all</string>
+
+
+    <string name="category_index_can_not_modif">System default grouping does not support modification</string>
+
+    <string name="category_index_books">&#160;book(s)</string>
+
+    <string name="category_index_load_fail">Download failed, you can re-download for free</string>
+    <string name="category_index_dowanload">Download</string>
+    <string name="voteview_reward">Reward</string>
+    <string name="voteview_beg_reward">Seeking reward</string>
+    <string name="voteview_reward_count">People reward</string>
+    <string name="voteveiw_recommend">Recommendation</string>
+    <string name="voteview_beg_recommend">Seeking recommendation</string>
+    <string name="voteview_recommend_count">People recommendation</string>
+    <string name="voteview_month">Month</string>
+    <string name="voteview_beg_month">Seeking monthly votes</string>
+    <string name="voteview_month_count">Monthly votes cast by the people</string>
+    <string name="votereward_100_coins" tools:ignore="MissingTranslation">100书币</string>
+    <string name="votereward_588_coins" tools:ignore="MissingTranslation">588书币</string>
+    <string name="votereward_1888_coins" tools:ignore="MissingTranslation">1888书币</string>
+    <string name="votereward_10000_coins" tools:ignore="MissingTranslation">1万书币</string>
+    <string name="votereward_one_monthticket" tools:ignore="MissingTranslation">赠投1月票</string>
+
+    <string name="vote_error">Voting error</string>
+    <string name="votereward_reward_failed">Reward failed</string>
+    <string name="votereward_coins_not_enough">Insufficient funds, please recharge</string>
+    <string name="votereward_content_not_enough">The text is too short, please say a bit more</string>
+    <string name="votereward_content_limit">Reached the comment word limit</string>
+    <string name="votereward_commit_success">Successfully published</string>
+    <string name="net_error">Network anomaly, please try again later</string>
+
+    <string name="vote_success">Vote cast successfully</string>
+    <string name="vote_illegal_uid">Illegal user name was used, voting failed</string>
+    <string name="vote_failed">Voting failed</string>
+    <string name="vote_ticket_not_enough_failed">Insufficient votes, voting failed</string>
+    <string name="voterecommend_get">How to acquire</string>
+    <string name="vote_ticket_not_enough">Insufficient votes</string>
+
+
+
+    <string name="votemonth_vote_exceed">Application exceeded the limit, voting failed</string>
+    <string name="votemonth_get">How to acquire</string>
+    <string name="utility_installing">Installing</string>
+    <string name="utility_get_light_error">Cannot acquire brightness</string>
+    <string name="utility_item">Item</string>
+    <string name="utility_chapter_download_complete">Downloads for the chapters you selected have completed</string>
+    <string name="chapter_download_failed">Chapter download failed</string>
+    <string name="utility_chapters_download_failed">Download for the batch chapters you have selected failed, please tap retry</string>
+    <string name="utility_download_beign1">《</string>
+    <string name="utility_download_begin2">》Begin download</string>
+    <string name="utility_download_begin">Begin download</string>
+    <string name="utility_etc1">《</string>
+    <string name="utility_etc2">》Wait</string>
+    <string name="utility_this_book">This book</string>
+    <string name="download_complete">Download completed</string>
+    <string name="utility_last_update">Last update:</string>
+    <string name="utility_days_ago">&#160;days ago</string>
+    <string name="utility_hours_ago">&#160;hours ago</string>
+    <string name="utility_minutes_ago">&#160;minutes ago</string>
+    <string name="utility_seconds_ago">just now</string>
+    <string name="utility_not_read">Unread</string>
+    <string name="utility_months_ago">&#160;months ago</string>
+    <string name="utility_months_ago2">&#160;months ago</string>
+    <string name="utility_years_ago">&#160;years ago</string>
+    <string name="utility_downloading">Downloading</string>
+    <string name="utility_serializing">loading</string>
+    <string name="word" tools:ignore="MissingTranslation">字</string>
+    <string name="utility_10000_words" tools:ignore="MissingTranslation">万字</string>
+    <string name="utility_bookfrom_yunqi">Cloud academy</string>
+    <string name="utility_bookfrom_chuangshi">Creation Chinese network</string>
+    <string name="utility_bookfrom_qidian">Starting Point Chinese network</string>
+    <string name="utility_book_help">Book shortage mutual help</string>
+    <string name="utility_original_zone">Original space</string>
+    <string name="utility_god_salon">Great spirit sand dragon</string>
+    <string name="update_test">Download test</string>
+    <string name="uiutil_loading_pic">Book is loading, please hold...</string>
+    <string name="uiutil_book_loading">Book is loading, please wait...</string>
+    <string name="uiutil_openbook_wrong">This book cannot be opened</string>
+    <string name="tts_finish">You have listened to the book</string>
+    <string name="tts_need_login">You must login for this chapter, please login</string>
+    <string name="tts_net_error">Poor network, chapter acquisition failure, please retry the network</string>
+    <string name="tts_need_buy">This chapter must be purchased, please purchase</string>
+    <string name="tts_need_vip">This chapter requires to join membership, please join membership</string>
+    <string name="tts_playing">The audio is now playing...</string>
+    <string name="traceview_log_output">"The journal has been exported to "</string>
+    <string name="traceview_memorylog_output">"The journal in the internal storage has been exported to "</string>
+    <string name="tip_night_mode">turn to night mode to protect eyes!</string>
+    <string name="tip_pre_download" tools:ignore="MissingTranslation">预先下载离线看</string>
+    <string name="tip_vote">Vote, reward, strong support for the author!</string>
+    <string name="tip_refresh">Tap here to return to the top and refresh</string>
+    <string name="tabbookshelf_book_new_chapter">This book has an update</string>
+    <string name="submit">Submit</string>
+    <string name="suggest_sending_feedback">Feedback is being issued, please hold</string>
+    <string name="suggest_user_feedback">User feedback</string>
+    <string name="suggest_null_tip">Please input a description of your problem or suggestion</string>
+    <string name="suggest_feedback_success">Feedback success, thank you for your valuable opinion!</string>
+    <string name="suggest_feedback_failed">Submission failed, please check your network</string>
+    <string name="styleitem_longclick_edit">Press and hold to edit</string>
+    <string name="styleitem_edit">Edit</string>
+    <string name="style_parchment">Parchment</string>
+    <string name="style_ink">Ink of Jiangnan</string>
+    <string name="style_protect_eye">Eye protection mode</string>
+    <string name="style_light">Evening lights are just lit</string>
+    <string name="style_pink">Pink memory</string>
+    <string name="style_white">White frost</string>
+    <string name="style_coffee">Coffee time</string>
+    <string name="style_custom">Self-definition</string>
+    <string name="style_longclick_edit">Press and hold to start editing</string>
+    <string name="stacktab_new_added">Book(s), new this week</string>
+    <string name="stacktab_bookcount">Book(s)</string>
+    <string name="stacktab_original_total">Original classification total</string>
+    <string name="stacktab_publish_total">Publication classification total</string>
+    <string name="splash_tip">Kind reminder</string>
+    <string name="skin_default">Default</string>
+    <string name="skin_setting">The skin is being set, please try again later.</string>
+    <string name="skin_outofdate">The skin has expired</string>
+    <string name="skin_price">0 book-coins</string>
+    <string name="selection_net_error">Network connection failure, please try again later</string>
+    <string name="selection_no_result">No search results, please use "iCIBA" or "soso Encyclopedia" to acquire more contents</string>
+    <string name="selection_size_limit">Already designed to obtain the maximum range</string>
+    <string name="selection_note1">《</string>
+    <string name="selection_note2">》Notes</string>
+    <string name="selction_share">Share</string>
+    <string name="selection_share_to">Share to</string>
+    <string name="selection_thx4_feedback">Thanks for your feedback, the error will be handled immediately.</string>
+    <string name="selection_choose_one">Please select one</string>
+    <string name="selection_null">Translation cannot be blank</string>
+    <string name="selection_copy_success">Copy successfully</string>
+    <string name="selection_note">--Note:</string>
+    <string name="delete_failed">Delete failed</string>
+    <string name="search_book_not_found">Cannot find the book that you are looking for</string>
+    <string name="searchtool_tip" tools:ignore="MissingTranslation">\u0020\u0020册海量书库你想看的这里都有"</string>
+    <string name="searchresult_book_total">The repository has %1$d %2$s novels</string>
+    <string name="searchresult_popularity">Popularity</string>
+    <string name="searchresult_collect">Collect</string>
+    <string name="searchresult_seller">Hot sales</string>
+    <string name="chapterNo1" tools:ignore="MissingTranslation">第</string>
+    <string name="chapterNo2" tools:ignore="MissingTranslation">章</string>
+    <string name="searchlocal_all_sort">All formats</string>
+    <string name="searchlocal_other">Other</string>
+    <string name="anonymous">Pseudonym</string>
+    <string name="import_books_to_shelf">Importing the book into the bookshelf...</string>
+    <string name="searchloacl_scan">Scan</string>
+    <string name="sdcard_access_error">SDCard is inaccessible</string>
+    <string name="searchlocal_no_book">Did not scan anything</string>
+    <string name="searchlocal_select_type">Select the display book category</string>
+    <string name="search_no_more_hotwords">No more hot terms</string>
+    <string name="search_need_login">You must login, please login</string>
+    <string name="month_vip">Monthly package</string>
+    <string name="recommendwords_editor_words">Editor\'s message:</string>
+    <string name="others">Other</string>
+    <string name="readertext_search_null">Search keyword cannot be blank</string>
+    <string name="readertextpage_error">Something is wrong, please try again</string>
+    <string name="readersetting_double_turnpage_tip">Dual page mode can only be used during landscape view</string>
+    <string name="readerpage_autoread_new">There is a new automatic reading method!</string>
+    <string name="modify_setting_tips">change screen lock-time to use auto-reading</string>
+    <string name="ticket_number">bill</string>
+    <string name="synchronize">Synchronize</string>
+    <string name="readerpage_authentication">Authenticating network, please wait...</string>
+    <string name="readerapge_parsing_file">Resolving document... first time may be slower</string>
+    <string name="readerpage_last_chapter">You have reached the last chapter</string>
+    <string name="readerpage_first_chapter">You have reached the first chapter</string>
+    <string name="readerpage_autoreading_close">Automatic reading is turned off</string>
+    <string name="readerpage_add_bookmark_failed">Add bookmark failed</string>
+    <string name="readerpage_bookmark_cancel">Bookmark has been canceled</string>
+    <string name="readerpage_add_bookmark_success">Add bookmark success</string>
+    <string name="comment">Comment</string>
+    <string name="orientation_portrait">Vertical screen</string>
+    <string name="orientation_landscape">Horizontal screen</string>
+    <string name="use_night_mode">Entering night mode</string>
+    <string name="cancel_night_mode">Exiting night mode</string>
+    <string name="readerpage_double_turnpage_autoread">Automatic reading mode cannot be activated during the dual page mode</string>
+    <string name="readerapge_autoread_error">Unable to open the automatic reading mode for the current page</string>
+    <string name="chapter_download_success">Chapter download successfully</string>
+    <string name="buy_failed">Purchase failed</string>
+    <string name="get_chapter_failed">Chapter acquisition failed!</string>
+    <string name="readerpage_install_tts">Please install the latest version of iFlyTek voice +</string>
+    <string name="readerpage_download_tts_resource">The voice you have selected has not been downloaded yet.</string>
+    <string name="readerpage_tts_errorcode">Voice playback error, error code:</string>
+    <string name="readerpage_cannot_vote_reward">This book currently does not support reward</string>
+    <string name="readerpage_cannot_vote_recommend">This book currently does not support recommendation votes</string>
+    <string name="readerpage_cannot_vote_month">This book currently does not support monthly votes</string>
+    <string name="readerpage_tts_error">Unable to open the voice reading mode for the current page</string>
+    <string name="readerpage_tts_notsupport">Copyright restricted, this book does not support human voice reading</string>
+    <string name="readerpage_tts_error_retry">Voice reading initiation error, please exit and try again, or contact customer services</string>
+    <string name="readerpage_get_book_info">Acquiring book information...</string>
+    <string name="readerlogin_installwx_first">Please install WeChat customer-end</string>
+    <string name="net_error_retrylater">Network error, please try again later</string>
+    <string name="login_fail_retry">Login failure, please login again</string>
+    <string name="token_fail_retry">Login state failed, please login again</string>
+    <string name="token_fail_retry2">Login state failed, please login again</string>
+    <string name="ten_thousand">Ten thousand</string>
+    <string name="new_version">Latest version</string>
+    <string name="app_downloading">Downloading...</string>
+    <string name="share_failed">Sharing failed</string>
+    <string name="profile_continue_pay">Renewal</string>
+    <string name="profile_expire">Expire</string>
+    <string name="profile_vip_tip">Monthly package books, read for free online</string>
+    <string name="profile_vip_opened">Opened</string>
+    <string name="profile_vip_not_opened">Not enabled</string>
+    <string name="daytime">Day time</string>
+    <string name="night">Night time</string>
+    <string name="profile_logout_tip">Exit the current account?</string>
+    <string name="profile_delete_cache">Cache is cleared</string>
+    <string name="tip">Prompt</string>
+    <string name="profile_new_version_v">The new V</string>
+    <string name="profile_new_version">New version</string>
+    <string name="profile_calculating">Calculating</string>
+    <string name="profile_preferences">Reading preference</string>
+    <string name="chapterbat_download_success">Download success</string>
+    <string name="waitting">Please wait...</string>
+    <string name="chaperbat_start_load_chapter">Begin chapter download</string>
+    <string name="chaperbat_the_paragraph">The %1$d chapter</string>
+    <string name="chapterbat_already_pay" tools:ignore="MissingTranslation">已付费</string>
+    <string name="chapter_download_reload">Re-download started</string>
+    <string name="chapter_item_net_suport" tools:ignore="MissingTranslation">(暂不支持)</string>
+    <string name="chapter_item_provider" tools:ignore="MissingTranslation">本书版权提供方：京东</string>
+    <string name="chapter_item_serialize_to" tools:ignore="MissingTranslation">连载至%1$s章</string>
+    <string name="chapter_item_finish" tools:ignore="MissingTranslation">完结共%1$s章</string>
+    <string name="chapter_item_excerpt" tools:ignore="MissingTranslation">节选共%1$s章</string>
+    <string name="chapter_update_at" tools:ignore="MissingTranslation">更新于</string>
+    <string name="home">Homepage</string>
+    <string name="chapter_pay_need_pay">Actual payment: %1$d book-coins</string>
+    <string name="chapter_pay_net_error_pay_fail">Network connection error, the payment was not paid successfully</string>
+    <string name="chapter_view_update_chapter">Update chapter</string>
+    <string name="chapter_view_clear_mark">Clear bookmarks</string>
+    <string name="chapter_view_delete_fail">Delete failure, please try again.</string>
+    <string name="chapter_view_clear_fail_catalog">Chapter directory clearing failure, please try again.</string>
+    <string name="chapter_view_clear_fail_mark">Clearing all books has failed, please try again.</string>
+    <string name="chapter_view_note">Notes:</string>
+    <string name="chapter_view_reading_catalog">Reading the directory...</string>
+    <string name="chapter_view_no_match">Did not find suitable chapter directory.</string>
+    <string name="chapter_view_getting_message">Acquiring the latest chapter information...</string>
+    <string name="chmreader_home2">Homepage</string>
+    <string name="chmreader_back">Back up</string>
+    <string name="chmreader_next_chapter">Next chapter</string>
+    <string name="chmreader_brightness">Brightness</string>
+    <string name="chmreader_go_back">Back</string>
+    <string name="chmreader_can_not_back">Cannot go back anymore</string>
+    <string name="chmreader_the_last">This is the last page</string>
+    <string name="charge">Paid</string>
+    <string name="all">All</string>
+    <string name="serialize">Installment publication</string>
+    <string name="end">End</string>
+    <string name="excerpt">Excerpt</string>
+    <string name="newest">Newest</string>
+    <string name="collection">Collect</string>
+    <string name="words">Word count</string>
+    <string name="popularity">Popularity</string>
+    <string name="by_popularity" tools:ignore="MissingTranslation">按人气</string>
+    <string name="by_newest" tools:ignore="MissingTranslation">按最新</string>
+    <string name="by_collection" tools:ignore="MissingTranslation">按收藏</string>
+    <string name="by_words" tools:ignore="MissingTranslation">按字数</string>
+    <string name="cloud_booklist_login_fail">Login has expired, please re-login again</string>
+    <string name="cloud_list_menu_author">Author:</string>
+    <string name="cloud_list_menu_progress">Reading progress:</string>
+    <string name="cloud_list_menu_status">Condition:</string>
+    <string name="cloud_list_menu_cloud_progress">Cloud progress:</string>
+    <string name="cloud_list_item_added">Added</string>
+    <string name="collection_praise">%s likes</string>
+    <string name="column_channel_manager">Channel management</string>
+    <string name="column_attentioned">Already followed</string>
+    <string name="column_channel">Channels</string>
+    <string name="floor" tools:ignore="MissingTranslation">楼</string>
+    <string name="go">go</string>
+    <string name="comment_link_stroll">Browse around</string>
+    <string name="comment_publisher_help">Book shortage help</string>
+    <string name="comment_publisher_original">Original exchange</string>
+    <string name="comment_publish_okami">Great spirit sand dragon</string>
+    <string name="comment_publisher_book_friend">Book friends circle:</string>
+    <string name="comment_publisher_comment_success">Book review has been sent successfully</string>
+    <string name="comment_publisher_comment_fail">Book review has failed to be sent</string>
+
+    <string name="common_order_dialog_committing">Submitting the review opinion...</string>
+    <string name="common_setting_magifying">Enlarge</string>
+    <string name="common_setting_reduce">Shrink</string>
+    <string name="common_setting_day_mode">Day mode</string>
+    <string name="common_setting_night_mode">Night mode</string>
+    <string name="common_setting_portrait_switch">Rotate screen</string>
+    <string name="common_setting_landscape_switch">Rotate screen</string>
+    <string name="constant_using_qqreader">I am using Honor Read to read a book 《</string>
+    <string name="constant_feeling_good_to_share">》, it\'s pretty good and I want to share with everyone.</string>
+    <string name="custom_long_press">Press and hold to edit</string>
+    <string name="custom_custom">Others</string>
+    <string name="detail_book_info_rewards">Number of people rewarded</string>
+    <string name="detail_book_info_recommend">Number of recommendation votes</string>
+    <string name="detail_book_info_month">Monthly votes</string>
+    <string name="detail_book_info_fans">Number of fans</string>
+    <string name="detail_book_info_editor_note">Editor\'s message:</string>
+    <string name="detail_copy_translator">Translator:</string>
+    <string name="detail_copy_publishing">Publisher:</string>
+    <string name="detail_copy_time">On-shelf time:</string>
+    <string name="detail_copy_price_paper_book">Paper book price:</string>
+    <string name="detail_copy_copyright">Copyright:</string>
+    <string name="detail_list_readed">%1$s read</string>
+    <string name="limit">Limited free</string>
+    <string name="special">Special price</string>
+    <string name="detail_page_left">"还剩"</string>
+    <string name="detail_page_bookread_left">"本书还可免费"</string>
+    <string name="detail_page_bookread_left_sp">"本书包月免费剩"</string>
+    <string name="detail_page_bookread_left_sp1">"慎重开通包月"</string>
+    <string name="words_wan" tools:ignore="MissingTranslation">万字</string>
+    <string name="wan">w</string>
+    <string name="wan2">Ten thousand or more</string>
+    <string name="discovery_comment_newly_add">"Newly added:  "</string>
+    <string name="discover_comment_repley">No book in book review square</string>
+    <string name="discover_comment_repley2">Here, friends who looked for the same book as me \n reminders, gossip, and reply together</string>
+    <string name="discovery_comment_shortage_help" tools:ignore="MissingTranslation">书荒互助</string>
+    <string name="discovery_comment_bryant_salon" tools:ignore="MissingTranslation">大神沙龙</string>
+    <string name="discovery_comment_original_commuication" tools:ignore="MissingTranslation">原创空间</string>
+    <string name="dl_proxy_insufficient_space">Insufficient space and the page cannot be activated, please clear the cache and try again later</string>
+    <string name="profile_account_my_account">My account</string>
+    <string name="download_mark_book_downloading">This book is being downloaded</string>
+    <string name="download_mark_start_loading">Download started</string>
+    <string name="end_page_rank_coin">Still %1$d book-coins away from the previous ranking one</string>
+    <string name="end_page_rank_coin_surpassed">It will be exceeded with another %1$d book-coins</string>
+    <string name="ranking">Name</string>
+    <string name="end_page_rank_recommend">Still %1$d recommendation votes away from the previous ranking one</string>
+    <string name="end_page_rank_recommend_surpassed">It will be exceeded with another %1$d recommendation votes</string>
+    <string name="end_page_rank_monnth">Still %1$d monthly votes away from the previous ranking one</string>
+    <string name="end_page_rank_monnth_surpassed">It will be exceeded with another %1$d monthly votes</string>
+    <string name="epub_font_start_download">Download for fine typesetting font started</string>
+    <string name="epub_font_download">Download starts</string>
+    <string name="epub_font_download_finish">Download for fine typesetting font completed</string>
+    <string name="epub_font_downloaded">Download completed</string>
+    <string name="epub_font_download_fail">Download for fine typesetting font failed</string>
+    <string name="error_type_file_null">The chapter document acquired is blank</string>
+    <string name="error_type_read_stream_fail">Read stream unsuccessful</string>
+    <string name="error_type_file_not_exist">File does not exist</string>
+    <string name="error_type_steam_read_exception">File stream anomaly</string>
+    <string name="error_type_encode_exception">Encoding exceptions, fail to read</string>
+    <string name="error_type_sd_card_enuserable">Memory card is currently unusable</string>
+    <string name="error_type_decompression_fail">Decompression failed</string>
+    <string name="error_type_access_database_fail">Database access failed, already attempted to repair, please reopen this book</string>
+    <string name="error_type_system_config_error">System configuration error</string>
+    <string name="error_type_open_book_fail">Don\'t support non-standard epub format</string>
+    <string name="feed_base_card_feed_subsidiary">Supplement information to the information stream</string>
+    <string name="feed_book_more_gift">More value packs</string>
+    <string name="feed_google_card_new_content">Recommended %1$d new contents</string>
+    <string name="feed_google_card_no_uapdate">Currently no updated contents</string>
+    <string name="feed_google_card_no_newcontent">Currently no new contents</string>
+    <string name="feed_google_card_system_busy">System is busy</string>
+    <string name="feed_hot_book_list_more_booklist">More wonderful book list</string>
+    <string name="feed_no_more_button_card_go_find">Go discover, browse around</string>
+    <string name="feed_no_more_button_card_rank">Reputation ranking books everyone is chasing after</string>
+    <string name="feed_no_more_button_card_bookstore">Go to the book repository and discover an ocean of good books</string>
+    <string name="feed_no_more_button_card_hot">A decade of reputation for popular epics waiting for you to read</string>
+    <string name="feed_no_more_bottom_card_all">Everything is shown</string>
+    <string name="feed_no_more_button_card_change_gene">Cannot find any good books? Adjust your reading factor</string>
+    <string name="feed_no_more_button_card_go_free">Free book zone, read an ocean of fine books</string>
+    <string name="feed_no_more_button_card_famous">Top authoritative masters are in the Hall of Fame</string>
+    <string name="feed_no_more_button_card_login">After login, more quality contents will be recommended to you</string>
+    <string name="feed_single_book_card_hardcover" tools:ignore="MissingTranslation">精装</string>
+    <string name="find_home_page_not_support_wx">Temporarily do not support WeChat users</string>
+    <string name="find_home_page_card_rank">Leader list</string>
+
+
+    <string name="find_home_page_card_month_vip">Monthly package dedicated zone</string>
+    <string name="find_home_page_card_free">Free dedicated zone</string>
+    <string name="find_home_page_card_famous">Hall of fame</string>
+    <string name="follow_broadcast_receive_update">There is an update</string>
+    <string name="follow_broadcast_receiver_this_book_update">This book has an update</string>
+    <string name="guide_card_readed">Read by people</string>
+    <string name="guide_card_collection">Collector</string>
+    <string name="h5_game_server_out">The server is down, please try again later</string>
+    <string name="h5_game_net_error">Network error, please check the network</string>
+    <string name="header_page_painter_writer" tools:ignore="MissingTranslation">著</string>
+    <string name="header_page_painter_publishing" tools:ignore="MissingTranslation">出版：</string>
+    <string name="header_page_painter_copyright" tools:ignore="MissingTranslation">版权：</string>
+    <string name="header_page_painter_publish" tools:ignore="MissingTranslation">上架：</string>
+    <string name="header_page_painter_words" tools:ignore="MissingTranslation">字数：</string>
+    <string name="header_page_painter_copyright_message" tools:ignore="MissingTranslation">版权信息</string>
+    <string name="header_page_painter_anonymous" tools:ignore="MissingTranslation">匿名</string>
+    <string name="header_page_painter_classification" tools:ignore="MissingTranslation">分类：</string>
+    <string name="header_page_painter_app_name" tools:ignore="MissingTranslation">荣耀阅读</string>
+    <string name="header_page_painter_publish_copyright_info" tools:ignore="MissingTranslation">本书由%1$s进行电子版制作与发行</string>
+    <string name="day_three">Within 3 days</string>
+    <string name="day_seven">Within 7 days</string>
+    <string name="day_fifteen">Within 15 days</string>
+    <string name="day_one_month">Last month</string>
+    <string name="day_one_month_ago">One month ago</string>
+    <string name="jump_growth_level">Growth level</string>
+    <string name="jump_vip_level">VIP level</string>
+    <string name="jump_my_level">My level</string>
+    <string name="jump_seclect_bookstore">Featured bookstore</string>
+
+    <string name="jump_search_result">Search result</string>
+    <string name="linear_menu_book_from">Book source:</string>
+    <string name="loacl_search_books_input_name">Please enter the name of the book or author</string>
+    <string name="local_search_books_content_null">Search content cannot be empty</string>
+    <string name="luck_draw_exception">Prize drawing anomaly</string>
+    <string name="mark_page">Page</string>
+    <string name="message_notice">Notification</string>
+    <string name="message_interaction">Interaction</string>
+    <string name="message_my_message">Message</string>
+    <string name="message_fragment_net_error">Bad network, please check your network setting</string>
+    <string name="message_fragment_delete">Delete</string>
+    <string name="message_fragment_marksure_delete">Do you want to delete this information?</string>
+    <string name="message_inter_replay_you">Replied to you:</string>
+    <string name="message_inter_top_review">Your book review has been set-to-top</string>
+    <string name="message_inter_essence_review">Your book review has been configured as essential book review</string>
+    <string name="message_inter_prase_review">Liked your book review</string>
+    <string name="message_inter_delete_review">Deleted your book review</string>
+    <string name="message_inter_god_replay">Your reply has been set as the top reply</string>
+    <string name="message_xlist_foter_no_message">No messages</string>
+    <string name="metor_category_system_default">System default classification does not support modification</string>
+    <string name="music_qq_tts">QQ audio book</string>
+    <string name="music_setting">Set up</string>
+    <string name="music_detail">details</string>
+    <string name="music_stopping_download">Stopping book download</string>
+    <string name="music_makesure_delete">Confirm book download\"</string>
+    <string name="music_deletting_local_book">Deleting local files, please wait...</string>
+    <string name="music_no_tts_book">Currently no audio book file</string>
+    <string name="music_add_list">Already added to the download list</string>
+    <string name="music_buy">Purchase</string>
+    <string name="music_all_chapter_zero">Chapter quantity is 0</string>
+    <string name="music_book_list_wait_download">Waiting to download</string>
+    <string name="music_book_list_dowanloading">Downloading</string>
+    <string name="music_book_stop_loading">Download paused</string>
+    <string name="music_book_list_load_fail">Download failed</string>
+    <string name="music_book_list_load">Downloading No.</string>
+    <string name="my_feed_ten_gene">You may select a maximum of 10 reading factors</string>
+    <string name="my_feed_recommend_boy">The following are choice recommendations for men</string>
+    <string name="my_feed_recommend_girl">The following are choice recommendations for women</string>
+    <string name="my_feed_recommend_publisher">The following are choice recommendations for publication users</string>
+    <string name="native_book_store_up_notice">Addition reminder is activated</string>
+    <string name="native_book_store_go_on_download">Continue download</string>
+    <string name="native_book_store_upate_lastest">This book must be upgraded to the latest version in order to enjoy the refined typesetting reading experiences</string>
+    <string name="native_book_store_boy">Men\'s channel</string>
+    <string name="native_book_store_girl">Women\'s channel</string>
+    <string name="native_book_store_publish">Publishing channel</string>
+    <string name="native_book_store_page_info1">Intoxicating city, martial arts, fantasy new world</string>
+    <string name="native_book_store_page_info2">Imperial-harem struggles, ordinary household struggles, and immortality cultivation; romance is king</string>
+    <string name="native_book_store_page_info3">Feast of thoughts, partner for life</string>
+    <string name="native_book_store_original">Original literature</string>
+    <string name="native_book_store_comments_share">Share book review</string>
+    <string name="native_book_store_ad_rubbish">Advertising and spam</string>
+    <string name="native_book_store_irrigation">Spamming</string>
+    <string name="native_book_store_reactionary">Reactionary</string>
+    <string name="native_book_store_attention">Follow</string>
+    <string name="native_book_store_attented">Already followed</string>
+    <string name="native_book_store_delete_comment_success">Comment deletion success</string>
+    <string name="native_book_store_delete_comment_fail">Comment deletion failure</string>
+    <string name="native_book_store_cancel_attented">Following has been canceled</string>
+    <string name="native_book_store_attented_success">Successfully followed</string>
+    <string name="native_fragment_selected_most">Select a maximum of %1$d</string>
+    <string name="native_page_fragment_cancel_god_reply">Cancel best reply</string>
+    <string name="native_page_fragment_god_reply">Set as best reply</string>
+    <string name="native_page_fragment_reply_fail">Reply failure</string>
+    <string name="native_page_fragment_reply_lz">Reply to OP</string>
+    <string name="native_page_fragment_write_somthing">Write something</string>
+    <string name="native_page_fragment_reply_success">Replies successfully</string>
+    <string name="native_page_fragment_delete_success">Deleted successfully</string>
+    <string name="native_page_framgent_canceled_god_reply">Canceled best reply</string>
+    <string name="native_page_fragment_god_reply_cuccess">Successfully set as best reply</string>
+    <string name="native_page_fragment_too_fast">Reply too fast, rest and then try again</string>
+    <string name="option_fail_retry">Operation failed, please try again later</string>
+    <string name="option_success">Success</string>
+    <string name="item">Article</string>
+    <string name="native_server_page_content_not_exist">Content does not exist or has been deleted</string>
+    <string name="new_login_install_wx">Please install WeChat customer-end</string>
+    <string name="new_login_logining">Logging in, please wait...</string>
+    <string name="save">Saving</string>
+    <string name="one_book_note_export_to_bookshelf">Export to bookshelf</string>
+    <string name="one_book_note_export_to_mail">Export to mailbox</string>
+    <string name="one_book_note_export_to_wx">Export to WeChat</string>
+    <string name="one_book_note_export_to_other">Export to others</string>
+    <string name="one_book_note_my_note">My notes</string>
+    <string name="one_book_note_export">Export</string>
+    <string name="one_book_note_author">Author: Unknow</string>
+    <string name="one_book_note_light">Highlight:</string>
+    <string name="one_book_note_mine">Mine</string>
+    <string name="one_book_note">Notes\r\n</string>
+    <string name="one_book_note_summary">Abstract:</string>
+    <string name="one_book_note_dialog_message">Notes have been exported to bookshelf.</string>
+    <string name="one_book_note_read">Read immediately</string>
+    <string name="one_book_note_close">Close</string>
+    <string name="one_book_note_extra">Notes, see attachment</string>
+    <string name="one_book_note_select_mail">Select mailbox</string>
+    <string name="one_book_note_select_application">Select export applications</string>
+    <string name="one_book_note_no_book">Cannot find this book, please check the SDCard</string>
+    <string name="cancel_charge">Order is canceled, recharge is not completed</string>
+    <string name="cancel_charge_short">Order is canceled</string>
+    <string name="month_vip_success">Monthly package opened successfully</string>
+    <string name="month_vip_fail">Opening effort failed</string>
+    <string name="login_status_fail">Login state failed, please login again</string>
+    <string name="tips">Prompt</string>
+    <string name="update_success">Refresh successful</string>
+    <string name="renewals">Renewal</string>
+    <string name="endtime">Expire</string>
+    <string name="open_service">Open</string>
+    <string name="month_vip_service_tip">Monthly package books, read for free online</string>
+    <string name="has_service">Opened</string>
+    <string name="plugin_title">My plug-in</string>
+    <string name="plugin_update_tip">Please stop all of the plug-in download, and then execute the update operations</string>
+    <string name="plugin_update_title">Update prompt</string>
+    <string name="plubin_update_content">Your plug-in content has been updated, do your want to refresh?</string>
+    <string name="plugin_download_title">Plugin Download</string>
+    <string name="plugin_download_wps">What you\'re about to download is WPS, WPS will be generated to download the icon on your desktop. Are you sure to download?</string>
+    <string name="plugin_download_tts">What you\'re about to download is Yuji,  it will be generated to download the icon on your desktop. Are you sure to download?</string>
+    <string name="plugin_download_notice">There is no WIFI, are you sure to use the mobile network to download?</string>
+    <string name="sd_card_full">Storage card is full, storage card cleaning is recommended</string>
+    <string name="sd_card_enusable">Storage card cannot be used, cannot read</string>
+    <string name="onile_fail_server_exception">Service anomaly:</string>
+    <string name="online_fail_net_error">Network anomaly, please try later</string>
+    <string name="online_package_chapter" tools:ignore="MissingTranslation">章-第</string>
+    <string name="online_pay_auto_bug" tools:ignore="MissingTranslation">以后不再提示我，自动购买下一章</string>
+    <string name="online_pay_open_monthly_free">Open monthly package, read this book online for free ></string>
+    <string name="online_pay_open_premium_monthly_free">Open value package, read for free online ></string>
+    <string name="online_pay_open_vip_free">Open VIP monthly package, read for free online ></string>
+    <string name="open_book_unknow_file">Cannot identify the file format</string>
+    <string name="renewals_month_vip">Monthly package renewal</string>
+    <string name="charge_failed">Recharge failed</string>
+    <string name="page_error_tip">Something is wrong, please try again</string>
+    <string name="monthvip_privilege">open monthly package，enjoy privileges</string>
+    <string name="yuanbao">Ingots</string>
+    <string name="plugin_installing">Installing, please wait...</string>
+    <string name="plugin_install_completed">Installation completed, open</string>
+    <string name="plugin_install_retry">Try again</string>
+    <string name="plugin_install">Install</string>
+    <string name="plugin_download_continue">"Continue download  "</string>
+    <string name="plugin_download">Download</string>
+    <string name="plugin_installing_tip">Installing</string>
+    <string name="plugin_cancel_install_tip">"(Tap cancel)"</string>
+    <string name="plugin_update">Update</string>
+    <string name="plugin_uninstall">Uninstall</string>
+    <string name="plugin_open">Open</string>
+    <string name="plugin_confirm_uninstall">Confirm uninstall</string>
+    <string name="plugin_font_title">Font</string>
+    <string name="plugin_font_default">Default</string>
+    <string name="plugin_font_using">In use</string>
+    <string name="plugin_font_to_use">Enable</string>
+    <string name="plugin_font_to_purchase">Font purchase</string>
+    <string name="plugin_font_fangzhengjinglei">Square Jinglei Font</string>
+    <string name="plugin_font_fangzhengmiaowu">Square Miaowu Font</string>
+    <string name="plugin_info_tts_start">Human voice reading, use your ear to experience different "audio" book effects from different voices.\ r\n After the human reading installation package has been downloaded,</string>
+    <string name="plugin_info_tts_end">you can use the human voice reading function.</string>
+    <string name="plugin_info_weiyun_start">Original QQ network disk is newly upgraded to Weiyun, and you may easily synchronize the books in your computer and your smartphone through Weiyun without having to use a data cable to import the books. Download the books in the Weiyun customer-end, tap "use other applications to open," select "</string>
+    <string name="plugin_info_weiyun_end">," this book will open and automatically e added to the bookshelf.</string>
+    <string name="plugin_info_office">This plug-in is launched through cooperation with the Kingsoft wps smartphone office. After installation, you can use it to read Word, Excel, and PowerPoint files. The plug-in supports doc, docx, xls, xlsx, ppt, and pptx formats. The functions are continue to be optimized. Please forgive us if you have experienced problems.</string>
+    <string name="plugin_info_archive">Download Zip and Rar support, then the reader can search and open Zip and Rar files.</string>
+    <string name="plugin_price">200 book-coins</string>
+
+    <string name="thanks_reading" tools:ignore="MissingTranslation">感谢支持作者，支持正版阅读</string>
+    <string name="author_word">Author has something to say</string>
+    <string name="chapter_comment">Discussion by everyone</string>
+    <string name="selected">Selected</string>
+    <string name="unselected">None selected</string>
+    <string name="vote">Vote</string>
+    <string name="setting_net">Configuration</string>
+    <string name="bookshelf_import_book">Import books</string>
+    <string name="bookshelf_find_book">Search groups</string>
+    <string name="cloudlist_delete_book">Do you want to delete this book?</string>
+    <string name="add_to_bookshelf">Add bookshelf</string>
+    <string name="already_add_to_bookshelf">The book has been in the bookshelf</string>
+    <string name="add_to_bookshelf_success">Successfully added to your library</string>
+    <string name="menu_filter">Filter</string>
+    <string name="search_loacl_book_stop_scaner">Do you want to stop scanning local books?</string>
+    <string name="search_loacl_book_stop">Stop</string>
+    <string name="member">Member</string>
+    <string name="hua_money">H-coins</string>
+    <string name="book_money">Book-coins</string>
+    <string name="account">Account</string>
+    <string name="level">Level</string>
+    <string name="gift_package">Value pack</string>
+    <string name="message">Messages</string>
+    <string name="sign_for_gift">Check in and win lavish prizes</string>
+    <string name="sign">Check in</string>
+    <string name="ask_suggest">Questions and recommendations</string>
+    <string name="about_text">About</string>
+    <string name="c2" tools:ignore="MissingTranslation">q2*fr$5978/,</string>
+    <string name="account_desception">Login to experience more functions</string>
+    <string name="tian">days</string>
+    <string name="alter_gene">Adjust factors</string>
+    <string name="huaweipay_affirm">OK</string>
+    <string name="huaweipay_intall_pay_service_now">Installing HuaweiPay Service... Please wait.</string>
+    <string name="huaweipay_install_tips_title">Attention</string>
+    <string name="huaweipay_install_tips_content">For payment security, HuaweiPay must be installed before you can proceed. Touch OK to install it.</string>
+    <string name="huaweipay_note">Prompt</string>
+    <string name="huaweipay_bottom_cancle">Cancel</string>
+    <string name="huaweipay_loading">Loading...</string>
+    <string name="huaweipay_download_error">Download HuaweiPay Service failed，please try again</string>
+    <string name="huaweipay_downloading_wait">downloading, please wait</string>
+    <string name="huaweipay_download_success">downloaded successfully, please install</string>
+    <string name="tab_boy">Boys Channel</string>
+    <string name="tab_girl">Girls Channel</string>
+    <string name="tab_publish">Publications</string>
+    <string name="action_settings">Settings</string>
+    <string name="net_disconnect_toast">web disconnected, please check</string>
+    <string name="net_disconnect">Fail to connect,click retry</string>
+    <string name="net_disconnect_retry">Connecting...</string>
+    <string name="book_detail_title">Book details</string>
+    <string name="sort">Sort</string>
+    <string name="comment_detail_share">Share</string>
+    <string name="comment_detail_comment">Reply</string>
+    <string name="comment_detail_like">Agree</string>
+    <string name="comment_detail_menu">Menu</string>
+    <string name="comment_edittext_hint">Write something</string>
+    <string name="comment_go_to_shuhuang" tools:ignore="MissingTranslation">去书荒互助逛逛</string>
+    <string name="download">Download</string>
+    <string name="loading_search_activity">Searching, please wait ...</string>
+    <string name="jsdialog_content_too_short">Too short, please say something more</string>
+    <string name="jsdialog_content_too_long">Please input 500 words or less!</string>
+    <string name="splash_permission_title">Failed to get permission</string>
+    <string name="splash_permission_message">Software required to obtain the necessary permissions to ensure your normal use of Honor Read</string>
+    <string name="splash_permission_button">Granted permission</string>
+
+    <string name="area">"en"</string>
+    <string name="share_more_detail" tools:ignore="MissingTranslation">更多详情</string>
+    <string name="share_book_recommend" tools:ignore="MissingTranslation">推荐</string>
+    <string name="share_book_to_you" tools:ignore="MissingTranslation">给你</string>
+    <string name="share_book_summery" tools:ignore="MissingTranslation">书籍简介</string>
+    <string name="huawei_zone" tools:ignore="MissingTranslation">华为专区</string>
+    <string name="get_download_info_failed" tools:ignore="MissingTranslation">获取下载信息失败</string>
+    <string name="sign_in_add_notice_full_msg">ALREADY SIGNED %1$d DAYS IN THIS WEEK，CHECK IN FOR A FULL WEEK TO WIN DOLLS AND Q-COINS</string>
+
+    <string name="app_name">Honor Reader</string>
+    <string name="qqgroup1"></string>
+    <string name="qqgroup2"></string>
+    <string name="product_name">Huawei</string>
+    <string name="default_publish_copyright_info" tools:ignore="MissingTranslation">本书由上海阅文信息技公司提供%s使用</string>
+    <string name="openmonth">Monthly package</string>
+    <!-- 厂商包月统一不要该名称，请勿修改 -->
+    <string name="literature_brand"></string>
+    <string name="local_book_root_pathname">storage</string>
+
+
+    <!-- 检测更新相关string -->
+    <string name="update_check">Check for a new version, please wait ... </string>
+    <string name="update_dialog_title">Found a new version</string>
+    <string name="update_dialog_version">Version</string>
+    <string name="update_dialog_size">Size</string>
+    <string name="update_dialog_detail">Detail</string>
+    <string name="update_cancel">Update Later</string>
+    <string name="update_update">Update Now</string>
+    <string name="download_info">Need Huawei market to upgrade, download now?</string>
+    <string name="download_download">Download</string>
+    <string name="download_cancel">Cancel</string>
+    <string name="downloading_market">Downloading Huawei market  Progress: </string>
+    <string name="downloading_market_update">Downloading</string>
+    <string name="download_fail_text">Download failed</string>
+    <string name="download_net_exception">Network exception</string>
+    <string name="update_unnecessary">latest version</string>
+    <string name="update_server_error">Server error</string>
+    <string name="update_name_invalid">Application name invalid</string>
+
+    <!-- Splash -->
+    <string name="splash_copy_right">Copyright © 2016-2017 Huawei Technologies Co., Ltd.</string>
+
+    <string name="author_level_1" tools:ignore="MissingTranslation">名人</string>
+    <string name="author_level_2" tools:ignore="MissingTranslation">名家</string>
+    <string name="author_level_3" tools:ignore="MissingTranslation">白金</string>
+    <string name="author_level_4" tools:ignore="MissingTranslation">大神</string>
+
+    <string name="from" tools:ignore="MissingTranslation">来自</string>
+
+    <string name="bookcoin_other_month">OtherMonths</string>
+    <string name="bookcoin_other_coins">OtherCoins</string>
+    <string name="bookcoin_pay_price">Amounts payable</string>
+    <string name="bookcoin_pay">Value</string>
+
+    <string name="label_month" tools:ignore="MissingTranslation">包月</string>
+    <string name="label_onediscount" tools:ignore="MissingTranslation">1折</string>
+    <string name="label_threediscount" tools:ignore="MissingTranslation">3折</string>
+    <string name="label_fivediscount" tools:ignore="MissingTranslation">5折</string>
+    <string name="label_author" tools:ignore="MissingTranslation">名家</string>
+    <string name="label_classic" tools:ignore="MissingTranslation">经典</string>
+    <string name="label_exclusive" tools:ignore="MissingTranslation">独家</string>
+    <string name="label_free" tools:ignore="MissingTranslation">免费</string>
+    <string name="label_hot" tools:ignore="MissingTranslation">热销</string>
+    <string name="label_fresh" tools:ignore="MissingTranslation">抢险</string>
+    <string name="label_recommend" tools:ignore="MissingTranslation">力荐</string>
+    <string name="label_limit" tools:ignore="MissingTranslation">限免</string>
+    <string name="read_test" tools:ignore="MissingTranslation">试读</string>
+
+    <string name="added_bookshelf">on bookshelf</string>
+    <string name="not_set_nickname">no nickname</string>
+
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+
+    <string name="tag_publisher">publisher</string>
+    <string name="tag_label">tag</string>
+    <string name="tag_author">writer</string>
+    <string name="tag_classify">classification</string>
+
+    <string name="exit_tip">press again to exit</string>
+
+    <string name="about_version_code">Edition</string>
+    <string name="about_official_QQ">official QQ group</string>
+    <string name="about_official_QQ_Number">QQ 499250729</string>
+    <string name="about_customer_service_QQ">QQ customer service</string>
+    <string name="about_customer_service_QQ_Number">QQ 800057679</string>
+    <string name="about_user_agreement">Honor Reader User Agreement</string>
+    <string name="about_and">&#160;and&#160;</string>
+    <string name="about_privacy">Huawei Privacy Policy</string>
+    <string name="about_copyright1">Copyright © 2016-2017 Huawei Technologies Co., Ltd. All rights reserved</string>
+    <string name="about_copyright2">Technical support provided by China Reading Limited</string>
+
+    <string name="all_category">all categories</string>
+    <string name="install_huawei_market">Please install HUAWEI app store firstly</string>
+
+
+    <string name="activity_area">Activity zone</string>
+    <string name="newcomer">Newcomer</string>
+    <string name="newestly">Newest</string>
+
+    <string name="continue_read_dialog_tips">Already 30min, take a break?</string>
+    <string name="continue_read_dialog_agree">Yes</string>
+    <string name="continue_read_dialog_disagree">No</string>
+
+    <!--<string name="readtime_tip1">exchange reading-hour into book coupons, enjoy thounds of books all around</string>-->
+    <!--<string name="readtime_tip2">reading-hour of this week: %1$d minutes</string>-->
+    <!--<string name="readtime_tip3">reading-hour of this week: %1$d minutes. Better than %2$d％ readers.</string>-->
+
+    <string name="readtime_title_defualt">exchange reading-hour into book coupons</string>
+    <string name="readtime_title">reading-hour of this week: %1$d minutes</string>
+    <string name="readtime_tip1">%1$d minutes more for coupons</string>
+    <string name="readtime_tip2">%1$d coupons</string>
+    <string name="readtime_tip3">Better than %1$d％ readers.</string>
+
+
+
+
+    <string name="readtime_exchange_error">server cannot be reached, please try again later</string>
+    <string name="readtime_exchange_success">%1$d book coupons have been exchanged</string>
+    <string name="readtime_reached_times">quota is full</string>
+    <string name="readtime_upload">uploading... try again later</string>
+    <string name="profile_recharge">Recharge</string>
+    <string name="exchange">Exchange</string>
+    <string name="my_value_pack">My value pack</string>
+    <string name="my_level">My level</string>
+
+    <string name="readpage_cur_exchange_readtime" tools:ignore="MissingTranslation">当前阅读时长可兑换</string>
+    <string name="readpage_cur_exchange_book_bill" tools:ignore="MissingTranslation">%1$d书券</string>
+    <string name="readpage_new_user_package" tools:ignore="MissingTranslation">新手礼包免费领</string>
+    <string name="readpage_new_user_book_bill" tools:ignore="MissingTranslation">%1$d书券</string>
+    <string name="readpage_button_exchange" tools:ignore="MissingTranslation">兑换</string>
+    <string name="readpage_button_exchanging" tools:ignore="MissingTranslation">兑换中</string>
+    <string name="readpage_button_already_exchange" tools:ignore="MissingTranslation">已兑换</string>
+    <string name="readpage_button_obtain" tools:ignore="MissingTranslation">领取</string>
+    <string name="readpage_button_obtaining" tools:ignore="MissingTranslation">领取中</string>
+    <string name="readpage_button_already_obtain" tools:ignore="MissingTranslation">已领取</string>
+    <string name="readpage_openmonth_title" tools:ignore="MissingTranslation">开通包月</string>
+    <string name="readpage_openmonth_intro" tools:ignore="MissingTranslation">在线免费阅读本书</string>
+    <string name="readpage_openpackage_intro" tools:ignore="MissingTranslation">在线免费阅读本书</string>
+
+    <!-- 504 modify-->
+    <string name="alert_dialog_buy">Buy</string>
+    <string name="book_coin">Book-coin</string>
+    <string name="book_ticket">Coupon</string>
+    <string name="balance_insufficient">(Insufficient balance)</string>
+    <string name="recharge">recharge</string>
+    <string name="recharge_and_buy" tools:ignore="MissingTranslation">充值并购买</string>
+    <string name="alert_dialog_cancel">cancel</string>
+    <string name="chapter_number">%1$d chapter</string>
+    <string name="write_topic_emtion">Emoji</string>
+
+    <string name="jump_replay_all">All the replies</string>
+    <string name="find_home_page_card_topic">Book series</string>
+    <string name="find_home_page_card_area">Comments zone</string>
+    <string name="category_index_total"> </string>
+    <string name="text_underline">Line</string>
+    <string name="paopao_alert_dialog_copy">Copy</string>
+    <string name="paopao_alert_dict">dict</string>
+    <string name="paopao_alert_share">Share</string>
+    <string name="text_note">Note</string>
+    <string name="vote_choose_one_ticket">vote</string>
+    <string name="vote_reward_ticket">Tip</string>
+    <string name="votereward_balance">Balance(book-coin)</string>
+    <string name="cancel_no_en">cancle</string>
+    <string name="vote_month_ticket_layout">monthly vote</string>
+    <string name="votemonth_leftticket">Number:</string>
+    <string name="vote_no_en">vote</string>
+    <string name="vote_one_ticket">1</string>
+    <string name="vote_three_tickets">3</string>
+    <string name="vote_two_tickets">2</string>
+    <string name="vote_five_tickets">5</string>
+    <string name="votemonth_leftticket2"> </string>
+    <string name="category_index_download_batch">Download</string>
+    <string name="chapter_pay_chapter">Chapter</string>
+    <string name="chapter_pay_bookcoin">Book-coin</string>
+    <string name="chapter_buy_tip_free_download">Download for free</string>
+    <string name="commitcomment_writ_comment">Write comments</string>
+    <string name="reader_setting_line_space">Line spacing</string>
+    <string name="reader_setting_linespacing_default">maximum</string>
+    <string name="reader_setting_linespacing_loose">middle</string>
+    <string name="reader_setting_linespacing_tight">minimum</string>
+    <string name="reader_setting_trunpage">Turn page animation</string>
+    <string name="reader_setting_turnpage_no_animation">none</string>
+    <string name="reader_setting_turnpage_simple">simple</string>
+    <string name="reader_setting_turnpage_simulation">vivid</string>
+    <string name="reader_setting_fullscreen">Full-screen</string>
+    <string name="reader_setting_show_navigationbar">Show navigation bar</string>
+    <string name="reader_setting_silde_chage_light">Change brightness by sliding</string>
+    <string name="reader_setting_volume_key_turn_page">Trun page by volume button</string>
+    <string name="reader_setting_left_part_turn_page">Left-hand mode</string>
+    <string name="reader_setting_one_mintue">1 minutes</string>
+    <string name="reader_setting_three_minutes">3 minutes</string>
+    <string name="reader_setting_five_minutes">5 minutes</string>
+    <string name="reader_setting_ten_minutes">10 minutes</string>
+    <string name="reader_setting_screen_on">never</string>
+    <string name="reader_setting_screen_on_time">Time to close screen</string>
+    <string name="reader_setting_auto_buy">Buy next chapter automatically</string>
+    <string name="paypage_charge" tools:ignore="MissingTranslation">余额不足，充值并购买</string>
+    <string name="readtime_exchange_btn_text">exchange</string>
+    <string name="vote_recommend_ticket_layout">recommendation ticket</string>
+    <string name="voterecommend_leftticket">remain</string>
+    <string name="vote_all_tickets">All</string>
+    <string name="voterecommend_leftticket2"> </string>
+    <string name="recharge_no_en">recharge</string>
+
+    <string name="chapter_pay_price">price ：</string>
+    <string name="chapter_selected">total ：</string>
+    <string name="chapter_pay_balance">balance ：</string>
+    <string name="select_all">Select All</string>
+    <string name="deselect_all">Cancel</string>
+    <string name="chapter_buy_tip_none_selected">Choose chapters</string>
+    <string name="chapter_buy_confirm_buy">Buy</string>
+
+    <string name="category_bookstore_genuine" tools:ignore="MissingTranslation">书城正版</string>
+    <string name="category_bookstore_import_native" tools:ignore="MissingTranslation">本地导入</string>
+    <string name="book_mark_not_group" tools:ignore="MissingTranslation">未分组</string>
+    <!--504 add-->
+    <string name="player_woman">Woman</string>
+    <string name="player_man">Man</string>
+
+    <!-- 阅读日 -->
+    <string name="read_day_honour">Honour </string>
+    <string name="read_day_day">ReadDay </string>
+    <string name="read_day_got">awarded </string>
+    <string name="read_day_got_for_award">awarded</string>
+    <string name="read_day_got_bei">times</string>
+    <string name="read_day_quantifier_zhang">sheet of</string>
+    <string name="read_day_award_null">Do not get a reward, just start reading</string>
+    <string name="read_day_prompt_rest_title">kindly reminder</string>
+    <string name="read_day_prompt_rest_detail">Have been reading for 1 hour,have a rest ~</string>
+
+    <!--2017/4/24-->
+    <string name="tip_new_theme">New! Feature!!\n Go \"Settings\" to change your app-skin</string>
+
+
+    <!--2017/4/27 14:57 临时添加-->
+    <string name="book_buy_coupon_in_reader">优惠券：</string>
+    <string name="book_buy_coupon_num_use_in_reader">张可用</string>
+    <string name="listen_test_tag">tag</string>
+
+    <!--2017/6/5 16:22 5.1.0硬编码检查-->
+    <string name="abs_base_booklist_db_error">Data error, please kill the program then open again</string>
+    <string name="book_pay_limit_system_error">system error</string>
+    <string name="book_pay_limit_book_id_error">book ID error</string>
+    <string name="book_pay_limit_coupon_type_error">coupon doesn\'t exit or type error</string>
+    <string name="book_pay_limit_not_free">the book is not free</string>
+    <string name="free_for_vip_until">free for VIP untill </string>
+    <string name="check_net_work_public_ip">public internet IP: </string>
+    <string name="check_net_work_target_ip">target IP: </string>
+    <string name="js_app_error">error</string>
+    <string name="js_dialog_write_comments">please write your comments!</string>
+    <string name="version_no_supported">not supported in this version</string>
+    <string name="try_other_theme">try another theme</string>
+    <!--2017/6/13 19:37 add-->
+    <string name="my_theme">theme</string>
+
+    <!-- 网络诊断相关-->
+    <string name="check_net">network diagnose</string>
+    <string name="send_check_result">send result</string>
+    <string name="check_result_notice">coped, click the button send to customer-service</string>
+    <string name="checking_net">diagnosing</string>
+
+    <string name="coupon">coupon</string>
+    <string name="to_use">to be used</string>
+    <string name="expired">out-of-date</string>
+
+    <string name="chapter_cache_out_date">the author rewrited this chapter, update?</string>
+    <string name="chapter_update">Yes</string>
+    <string name="dont_update_chapter">No</string>
+
+    <!-- 听书 -->
+    <string name="player_end_time_leave">last</string>
+    <string name="player_end_time_day">day</string>
+    <string name="player_end_time_honr">hour</string>
+    <string name="player_end_time_minute">minute</string>
+    <string name="player_number_ten_thousand">wan</string>
+    <string name="player_number_billion">yi</string>
+    <string name="default_time">00:00</string>
+
+    <string name="player_album_txt_book">read</string>
+
+    <string name="player_info_reader">broadcaster</string>
+    <string name="player_info_author">author</string>
+    <string name="player_info_number">chapter</string>
+    <string name="player_info_status">state</string>
+    <string name="player_info_status_finish">finised</string>
+    <string name="player_info_status_continue">Serialized</string>
+    <string name="player_info_status_and">to</string>
+    <string name="player_info_status_unit">chapter</string>
+    <string name="player_info_price">price</string>
+    <string name="player_info_price_limit_free">limited free</string>
+    <string name="player_info_price_limit_price">limited cut</string>
+    <string name="player_info_price_limit_discount">limited %d cut</string>
+    <string name="player_info_price_free">free</string>
+    <string name="player_info_price_pay_all">buied</string>
+    <string name="player_info_price_for_chapter">%s yuan/chapter</string>
+    <string name="player_info_price_for_book">%s yuan/book</string>
+    <string name="player_info_price_action">XXXX</string>
+    <string name="player_info_copyright">——copyright: %s——</string>
+    <string name="player_info_copyright_default">——copyright: China Reading Lmt.——</string>
+
+
+    <string name="player_info_net_error">no network, try again</string>
+    <string name="player_info_no_book_error">off the shelf, no service</string>
+
+    <string name="player_play_net_switch_note">no wifi, continue playing? </string>
+
+    <string name="player_bottom_add_shelf">add to shelf</string>
+    <string name="player_bottom_added_shelf">in shelf already</string>
+    <string name="player_bottom_download">donwload</string>
+    <string name="player_bottom_comment">comments</string>
+    <string name="player_bottom_more">more</string>
+
+    <string name="player_progress_time_default">00:00</string>
+
+    <string name="player_dialog_info_message">get resource...</string>
+
+    <string name="player_dialog_time_title">close time</string>
+    <string name="player_dialog_time_no">none</string>
+    <string name="player_dialog_time_unit">minute</string>
+
+    <string name="player_dialog_more_title">more</string>
+    <string name="player_dialog_more_auto_bug">auto-buy next chapter</string>
+
+    <string name="player_dialog_buy_sure_for_not_enough">recharge and buy</string>
+
+    <string name="player_dialog_limit_free_message">free for online listening, need pay for downloading.</string>
+    <string name="player_dialog_buy_coin_for_book">book-coin/book</string>
+    <string name="player_dialog_buy_coin_for_chapter">book-coin</string>
+    <string name="player_dialog_read_fail_message">can only play after sign in</string>
+    <string name="player_dialog_buy_message">buying...</string>
+    <string name="player_dialog_wait_message">waiting...</string>
+
+    <string name="player_dialog_login_now">sign in</string>
+    <string name="player_dialog_login_no">not now</string>
+    <string name="player_dialog_net_switch">no wifi，may cost other fee</string>
+
+
+    <string name="player_toast_chapters_fail">chapter getting failure</string>
+    <string name="player_toast_net_error">network failure</string>
+    <string name="player_toast_add_shelf_success">in the shelf</string>
+    <string name="player_toast_buy_book_message">verificating...</string>
+    <string name="player_toast_buy_book_auth_fail">failure</string>
+    <string name="player_toast_buy_chapter_success">success</string>
+    <string name="player_toast_to_reader_page_for_net_error">no network，get file failure</string>
+
+    <string name="player_notification_book_name_for_no_net">no network, paused</string>
+    <string name="player_notification_book_name_for_no_wifi">no wif, paused</string>
+    <string name="player_notification_book_name_for_no_free">not purchased, cannot play</string>
+
+
+    <string name="audio_chapter_bottom_price_fail">Failed to get balance</string>
+    <string name="audio_chapter_bottom_buy_for_zero">Please select the download section</string>
+    <string name="audio_chapter_bottom_buy_for_free">free</string>
+    <string name="audio_chapter_bottom_buy_for_price">confirm</string>
+    <string name="audio_chapter_bottom_buy_for_charge">Recharge and purchase</string>
+
+    <string name="audio_chapter_bottom_selected_all">select all</string>
+    <string name="audio_chapter_bottom_selected_all_cancel">cancle</string>
+    <string name="audio_chapter_bottom_play_all">start</string>
+    <string name="audio_chapter_bottom_pause_all">pause</string>
+
+    <string name="audio_chapter_dialog_net_message">no wifi，download may cost other fee</string>
+    <string name="audio_chapter_dialog_net_download_continue">continue</string>
+    <string name="audio_chapter_dialog_download_background">download background</string>
+    <string name="audio_chapter_dialog_download_fail_message">download failure，retry for free</string>
+    <string name="audio_chapter_dialog_download_fail_dowanload">download</string>
+    <string name="audio_chapter_dialog_download_message">downloading...</string>
+    <string name="audio_chapter_dialog_sd_full">download failure，release some area then retry</string>
+
+    <string name="audio_chapter_adapter_item_fail">failed</string>
+    <string name="audio_chapter_adapter_child_price_payed">paid</string>
+    <string name="audio_chapter_adapter_child_price_free">free</string>
+
+    <string name="audio_chapter_adapter_child_status_wait">waiting</string>
+    <string name="audio_chapter_adapter_child_status_pause">continue</string>
+
+    <string name="audio_chapter_adapter_group_name_index">no.</string>
+    <string name="audio_chapter_adapter_group_name_unit">chapter</string>
+
+    <string name="audio_chapter_toast_download_success">success</string>
+    <string name="audio_chapter_toast_download_unit">chapter</string>
+    <string name="audio_chapter_toast_download_start">start</string>
+    <string name="audio_chapter_toast_net_no">no network, set</string>
+
+    <string name="audio_chapter_progress_buy">buying...</string>
+    <string name="audio_chapter_progress_message">waiting...</string>
+
+    <!-- 听书专区 -->
+    <string name="listen_zone_title">listen area</string>
+    <string name="listen_zone_hot_title">hot books</string>
+    <string name="listen_zone_stack_title">stacks</string>
+
+    <!--2017/7/10 11:48 听书搜索 add-->
+    <string name="tag_audio">audio books</string>
+    <string name="chapter_count">chapter</string>
+    <string name="search_aviable_find_book">found %d books on your shelf</string>
+    <string name="free_receive">免费领取</string>
+
+</resources>
+
