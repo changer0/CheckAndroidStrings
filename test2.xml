@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <!--<string name="readtime_tip1">exchange reading-hour into book coupons, enjoy thounds of books all around</string>-->
+    <!--<string name="readtime_tip2">reading-hour of this week: %1$d minutes</string>-->
+    <!--<string name="readtime_tip3">reading-hour of this week: %1$d minutes. Better than %2$d％ readers.</string>-->
+
+    <string name="readtime_title_defualt">exchange reading-hour into book coupons</string>
+    <string name="readtime_title">reading-hour of this week: %1$d minutes</string>
+    <string name="readtime_tip1">%1$d minutes more for coupons</string>
+    <string name="readtime_tip2">%1$d coupons</string>
+    <string name="readtime_tip3">Better than %1$d％ readers.</string>
+
+
+
+
+    <string name="readtime_exchange_error">server cannot be reached, please try again later</string>
+    <string name="readtime_exchange_success">%1$d book coupons have been exchanged</string>
+    <string name="readtime_reached_times">quota is full</string>
+    <string name="readtime_upload">uploading... try again later</string>
+    <string name="profile_recharge">Recharge</string>
+    <string name="exchange">Exchange</string>
+    <string name="my_value_pack">My value pack</string>
+    <string name="my_level">My level</string>
+
+</resources>
