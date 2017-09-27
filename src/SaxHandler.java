@@ -47,7 +47,15 @@ public class SaxHandler extends DefaultHandler {
     public void endElement(String uri, String localName, String qName) throws SAXException {
         super.endElement(uri, localName, qName);
         if (mNameStack.pop().equals("string")) {
-            mStringsMap.put(temKey, createStringValue(temKey, temValue.toString().trim(), mIndex ));
+
+            String[] values = mStringsMap.get(temKey);
+            if (values == null) {
+                mStringsMap.put(temKey, createStringValue(temKey, temValue.toString().trim(), mIndex ));
+            } else {
+                values[mIndex] = temValue.toString().trim();
+                mStringsMap.remove(temKey);
+                mStringsMap.put(temKey, values);
+            }
         }
     }
 

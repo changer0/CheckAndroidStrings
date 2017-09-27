@@ -1,52 +1,101 @@
 import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.*;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.*;
 
 public class CheckStrings {
     private static Map<String, String[]> stringsMap = new HashMap<String, String[]>();
     //Default,en-rGB,zh-rCN,zh-rTW,zh-rHK,zh_rBo 按照这个顺序排列
-    private static final int BASE_INDEX = 2;
+    private static int mBaseIndex = 2;
     public static void main(String[] args) {
-        BufferedReader br = null;
         try {
-
+            System.out.println("!请将该Jar文件放在项目根目录!");
+            System.out.println("请输入编号用来判断以哪种语言作为对照, 序号对照表:");
+            System.out.println("Default 0 en-rGB 1 zh-rCN 2 zh-rTW 3 zh-rHK 4 zh_rBo 5");
+            Scanner scanner = new Scanner(System.in);
+            if (scanner.hasNext()) {
+                String temIndex = scanner.nextLine();
+                try {
+                    mBaseIndex = Integer.parseInt(temIndex.trim());
+                }catch (Exception e) {
+                    System.out.println("输入非法");
+                }
+                if (mBaseIndex > 5 || mBaseIndex < 0) {
+                    System.out.println("输入非法");
+                    return;
+                }
+            }
             //1. 生成SAX工厂类
             SAXParserFactory factory = SAXParserFactory.newInstance();
             //2. 通过工厂类生成SAXParser对象
             SAXParser parser = factory.newSAXParser();
-            parser.parse(new FileInputStream("strings.xml"), new SaxHandler(stringsMap, BASE_INDEX));
+
+
+
+
+            System.out.println("正在读取Default...");
+            parser.parse(new FileInputStream("strings.xml"), new SaxHandler(stringsMap, 0));
+            System.out.println("正在读取en...");
+            parser.parse(new FileInputStream("res/values-en/strings.xml"), new SaxHandler(stringsMap, 1));
+            System.out.println("正在读取zh-rCN...");
+            parser.parse(new FileInputStream("res/values-zh-rCN/strings.xml"), new SaxHandler(stringsMap, 2));
             writeToFileIsContain();
             writeToFileValues();
-            printTest();
-        } catch (SAXException e) {
+            System.out.println("文档输出完成");
+        } catch (Exception e) {
             e.printStackTrace();
-        } catch (ParserConfigurationException e) {
-            e.printStackTrace();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if (br != null) {
-                try {
-                    br.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
         }
-        System.out.println("文档输出完成");
     }
 
+    /**
+     * 解析字符串文件
+     * @param parser
+     * @param filePath
+     * @param index
+     */
+    private static void parseStringsFile(SAXParser parser, String filePath, int index) {
+        try {
+            parser.parse(new FileInputStream(filePath), new SaxHandler(stringsMap, index));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 根据下列顺序
+     * Default,en-rGB,zh-rCN,zh-rTW,zh-rHK,zh_rBo 按照这个顺序排列
+     * @param index
+     * @return
+     */
+    private static String getFilePathForIndex(int index) {
+        String ret = "";
+        switch (index) {
+            case 0:
+                ret = "res/values/strings.xml";
+                break;
+             case 1:
+                 ret = "res/values-en/strings.xml";
+                break;
+             case 2:
+                 ret = "res/values-zh-rCN/strings.xml";
+                break;
+             case 3:
+                 ret = "res/values-zh-rTW/strings.xml";
+                break;
+             case 4:
+                 ret = "res/values-zh-rHK/strings.xml";
+                break;
+             case 5:
+                 ret = "res/values-en/strings.xml";
+                break;
+
+        }
+        return ret;
+    }
 
     /**
      * 将搜索values写入文件
@@ -138,7 +187,7 @@ public class CheckStrings {
         Iterator<Map.Entry<String, String[]>> iterator = entries.iterator();
         while (iterator.hasNext()) {
             Map.Entry<String, String[]> entry = iterator.next();
-            System.out.println("Key => " + entry.getKey() + " Value => " + entry.getValue()[BASE_INDEX]);
+            System.out.println("Key => " + entry.getKey() + " Value => " + entry.getValue()[mBaseIndex]);
         }
     }
 
