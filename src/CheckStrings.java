@@ -33,16 +33,9 @@ public class CheckStrings {
             SAXParserFactory factory = SAXParserFactory.newInstance();
             //2. 通过工厂类生成SAXParser对象
             SAXParser parser = factory.newSAXParser();
-
-
-
-
-            System.out.println("正在读取Default...");
-            parser.parse(new FileInputStream("strings.xml"), new SaxHandler(stringsMap, 0));
-            System.out.println("正在读取en...");
-            parser.parse(new FileInputStream("res/values-en/strings.xml"), new SaxHandler(stringsMap, 1));
-            System.out.println("正在读取zh-rCN...");
-            parser.parse(new FileInputStream("res/values-zh-rCN/strings.xml"), new SaxHandler(stringsMap, 2));
+            for (int i = mBaseIndex; i < mBaseIndex + 6; i++) {
+                parseStringsFile(parser, i % 6);
+            }
             writeToFileIsContain();
             writeToFileValues();
             System.out.println("文档输出完成");
@@ -54,12 +47,12 @@ public class CheckStrings {
     /**
      * 解析字符串文件
      * @param parser
-     * @param filePath
      * @param index
      */
-    private static void parseStringsFile(SAXParser parser, String filePath, int index) {
+    private static void parseStringsFile(SAXParser parser, int index) {
         try {
-            parser.parse(new FileInputStream(filePath), new SaxHandler(stringsMap, index));
+            System.out.println("正在读取 => " + getFilePathForIndex(index));
+            parser.parse(new FileInputStream(getFilePathForIndex(index)), new SaxHandler(stringsMap, index));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -90,7 +83,7 @@ public class CheckStrings {
                  ret = "res/values-zh-rHK/strings.xml";
                 break;
              case 5:
-                 ret = "res/values-en/strings.xml";
+                 ret = "res/values-bo-rCN/strings.xml";
                 break;
 
         }
