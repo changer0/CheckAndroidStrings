@@ -11,6 +11,7 @@ public class CheckStrings {
     private static Map<String, String[]> stringsMap = new HashMap<String, String[]>();
     //Default,en-rGB,zh-rCN,zh-rTW,zh-rHK,zh_rBo 按照这个顺序排列
     private static int mBaseIndex = 2;
+    private static int MAX_LAN_COUNT = 5;
     public static void main(String[] args) {
         try {
             System.out.println("!请将该Jar文件放在项目根目录!");
@@ -24,7 +25,7 @@ public class CheckStrings {
                 }catch (Exception e) {
                     System.out.println("输入非法");
                 }
-                if (mBaseIndex > 5 || mBaseIndex < 0) {
+                if (mBaseIndex > MAX_LAN_COUNT || mBaseIndex < 0) {
                     System.out.println("输入非法");
                     return;
                 }
@@ -33,16 +34,19 @@ public class CheckStrings {
             SAXParserFactory factory = SAXParserFactory.newInstance();
             //2. 通过工厂类生成SAXParser对象
             SAXParser parser = factory.newSAXParser();
-            for (int i = mBaseIndex; i < mBaseIndex + 6; i++) {
-                parseStringsFile(parser, i % 6);
+            for (int i = mBaseIndex; i < mBaseIndex + MAX_LAN_COUNT + 1; i++) {
+                parseStringsFile(parser, i % (MAX_LAN_COUNT + 1));
             }
             writeToFileIsContain();
             writeToFileValues();
-            System.out.println("文档输出完成");
+            writeNullToFileValues();
+            System.out.println("文档输出完成 ^v^ (回车关闭)");
+            scanner.nextLine();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
+
 
     /**
      * 解析字符串文件
@@ -90,6 +94,58 @@ public class CheckStrings {
         return ret;
     }
 
+
+    /**
+     * 将不正常的数据输出到文件
+     */
+    private static void writeNullToFileValues() {
+        Set<Map.Entry<String, String[]>> entries = stringsMap.entrySet();
+        Iterator<Map.Entry<String, String[]>> iterator = entries.iterator();
+        BufferedWriter bw = null;
+        try {
+            bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("荣耀阅读字符串检查结果[只包含缺失部分].csv"), "gbk"));
+            bw.write("String Name," + "Default," + "en-rGB," + "zh-rCN," + "zh-rTW," + "zh-rHK," + "zh_rBo\n" );
+            while (iterator.hasNext()) {
+                Map.Entry<String, String[]> entry = iterator.next();
+                if (checkValuesContainNull(entry.getValue())) {
+                    bw.write(entry.getKey() + ",");
+                    for (int i = 0; i <= MAX_LAN_COUNT; i++) {
+                        if (i == MAX_LAN_COUNT) {
+                            bw.write("\"" + entry.getValue()[i] + "\"" + "\n");
+                        } else {
+                            bw.write("\"" + entry.getValue()[i] + "\"" + ",");
+                        }
+                    }
+                }
+            }
+            bw.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (bw != null) {
+                try {
+                    bw.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    /**
+     *
+     * @return
+     */
+    private static boolean checkValuesContainNull(String[] values) {
+        for (int i = 0; i <= MAX_LAN_COUNT; i++) {
+            if (values[i] == null) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
     /**
      * 将搜索values写入文件
      */
@@ -98,13 +154,13 @@ public class CheckStrings {
         Iterator<Map.Entry<String, String[]>> iterator = entries.iterator();
         BufferedWriter bw = null;
         try {
-            bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("荣耀阅读字符串检查结果[包含字符串].csv"), "gbk"));
+            bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("荣耀阅读字符串检查结果[包含全部字符串].csv"), "gbk"));
             bw.write("String Name," + "Default," + "en-rGB," + "zh-rCN," + "zh-rTW," + "zh-rHK," + "zh_rBo\n" );
             while (iterator.hasNext()) {
                 Map.Entry<String, String[]> entry = iterator.next();
                 bw.write(entry.getKey() + ",");
-                for (int i = 0; i < 6; i++) {
-                    if (i == 5) {
+                for (int i = 0; i <= MAX_LAN_COUNT; i++) {
+                    if (i == MAX_LAN_COUNT) {
                         bw.write("\"" + entry.getValue()[i] + "\"" + "\n");
                     } else {
                         bw.write("\"" + entry.getValue()[i] + "\"" + ",");
@@ -134,13 +190,13 @@ public class CheckStrings {
         Iterator<Map.Entry<String, String[]>> iterator = entries.iterator();
         BufferedWriter bw = null;
         try {
-            bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("荣耀阅读字符串检查结果[是否缺失].csv"), "gbk"));
+            bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("荣耀阅读字符串检查结果[只显示是否缺失].csv"), "gbk"));
             bw.write("String Name," + "Default," + "en-rGB," + "zh-rCN," + "zh-rTW," + "zh-rHK," + "zh_rBo\n" );
             while (iterator.hasNext()) {
                 Map.Entry<String, String[]> entry = iterator.next();
                 bw.write(entry.getKey() + ",");
-                for (int i = 0; i < 6; i++) {
-                    if (i == 5) {
+                for (int i = 0; i <= MAX_LAN_COUNT; i++) {
+                    if (i == MAX_LAN_COUNT) {
                         if (entry.getValue()[i] == null) {
                             bw.write("\"" + "无" + "\"" + "\n");
                         } else {
