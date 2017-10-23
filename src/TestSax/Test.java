@@ -23,28 +23,37 @@ import java.io.IOException;
  * Date: 2016/8/9
  */
 public class Test {
+//    public static void main(String[] args) {
+//        try {
+//            //1. 生成SAX工厂类
+//            SAXParserFactory factory = SAXParserFactory.newInstance();
+//            //2. 通过工厂类生成SAXParser对象
+//            SAXParser parser = factory.newSAXParser();
+//
+//            Note note = new Note();
+//            parser.parse(new FileInputStream("test.xml"), new MyHandler(note));
+//
+//            System.out.println(note.toString());
+//            System.out.println(note.getLevel());
+//
+//        } catch (ParserConfigurationException e) {
+//            e.printStackTrace();
+//        } catch (SAXException e) {
+//            e.printStackTrace();
+//        } catch (FileNotFoundException e) {
+//            e.printStackTrace();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//
+//    }
+
+
     public static void main(String[] args) {
-        try {
-            //1. 生成SAX工厂类
-            SAXParserFactory factory = SAXParserFactory.newInstance();
-            //2. 通过工厂类生成SAXParser对象
-            SAXParser parser = factory.newSAXParser();
-
-            Note note = new Note();
-            parser.parse(new FileInputStream("test.xml"), new MyHandler(note));
-
-            System.out.println(note.toString());
-            System.out.println(note.getLevel());
-
-        } catch (ParserConfigurationException e) {
-            e.printStackTrace();
-        } catch (SAXException e) {
-            e.printStackTrace();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+        System.out.println("result => " + func("Tencent"));
+        System.out.println("Test => " + "Tencent".substring(1));
+    }
+    public static String func(String s) {
+        return s.length() > 0 ? func(s.substring(1)) + s.charAt(0) : "";
     }
 }
